@@ -254,9 +254,14 @@ class ProjectBuildService : Editor
         string path = ExportPath + "/" + GetPackageName() + ".apk";
 
         BuildOptions option = BuildOptions.None;
+
         if (ApplicationMode == AppMode.Release)
         {
-            option = BuildOptions.Il2CPP;
+            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
+        }
+        else
+        {
+            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.Mono2x);
         }
 
         BuildPipeline.BuildPlayer(GetBuildScenes(), path, BuildTarget.Android, option);
@@ -293,9 +298,12 @@ class ProjectBuildService : Editor
         BuildOptions option = BuildOptions.None;
         if (ApplicationMode == AppMode.Release)
         {
-            option = BuildOptions.Il2CPP;
+            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.IL2CPP);
         }
-
+        else
+        {
+            PlayerSettings.SetScriptingBackend(BuildTargetGroup.Android, ScriptingImplementation.Mono2x);
+        }
         BuildPipeline.BuildPlayer(GetBuildScenes(), ExportPath, BuildTarget.iOS, option);
     }
 
