@@ -1,6 +1,5 @@
 #pragma warning disable
 using LockStepDemo;
-using LockStepDemo.Service;
 using Protocol;
 using System;
 using System.Collections.Generic;
@@ -13,6 +12,7 @@ public static class ProtocolAnalysisService
 	public static void SendMsg (SyncSession session,IProtocolMessageInterface msg)
 	{
 		string key = msg.GetType().Name.ToLower();
+		Console.WriteLine($"key:{key}");
 		switch (key)
 		{
 			case  "affirmmsg":SendAffirmMsg(session , (Protocol.AffirmMsg)msg);break;
@@ -445,7 +445,7 @@ public static class ProtocolAnalysisService
 		Protocol.QueryCommand msg = new Protocol.QueryCommand();
 		msg.frame = (int)e.m_data["frame"];
 		msg.id = (int)e.m_data["id"];
-		
+		Console.WriteLine("收到Query指令");
 		EventService.DispatchTypeEvent(session,msg);
 	}
 	static void ReceviceStartSyncMsg(SyncSession session ,ProtocolRequestBase e)

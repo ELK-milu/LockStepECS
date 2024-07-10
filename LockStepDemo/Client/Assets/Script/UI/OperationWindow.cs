@@ -21,7 +21,7 @@ public class OperationWindow : UIWindowBase
 
         //InitRank();
 
-        //ElementInit();
+        ElementInit();
 
         //ItemInit();
     }
@@ -155,7 +155,7 @@ public class OperationWindow : UIWindowBase
     List<UIBase> m_elementList = new List<UIBase>();
     public void ElementInit()
     {
-        //Debug.Log("ElementInit");
+        Debug.Log("ElementInit");
 
         for (int i = 0; i < 4; i++)
         {

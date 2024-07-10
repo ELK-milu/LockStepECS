@@ -168,12 +168,19 @@ public class SystemBase
     {
 
     }
+    public virtual void OnEntityCompAdd(EntityBase entity, string compName, ComponentBase component)
+    {
+
+    }
 
     public virtual void OnEntityCompAdd(EntityBase entity, int compIndex, ComponentBase component)
     {
 
     }
+    public virtual void OnEntityCompRemove(EntityBase entity, string compName, ComponentBase component)
+    {
 
+    }
     public virtual void OnEntityCompRemove(EntityBase entity, int compIndex, ComponentBase component)
     {
 

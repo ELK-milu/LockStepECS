@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using MiniJSON;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System;
@@ -154,7 +155,7 @@ public static class ResourcesConfigManager
 
         ResourcesConfigStruct result = new ResourcesConfigStruct();
 
-        Dictionary<string, object> data = (Dictionary<string, object>)FrameWork.Json.Deserialize(content);
+        Dictionary<string, object> data = (Dictionary<string, object>)Json.Deserialize(content);
 
         Dictionary<string, object> gameRelyBundles = (Dictionary<string, object>)data[c_relyBundleKey];
         Dictionary<string, object> gameAssetsBundles = (Dictionary<string, object>)data[c_bundlesKey];

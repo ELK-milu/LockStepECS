@@ -20,9 +20,9 @@ public class SyncService : AppServer<SyncSession, ProtocolRequestBase>
     SettlementService settlementService = new SettlementService();
     DataBaseService dataBaseService = new DataBaseService();
 
-    AIService m_aiService = new AIService();
+    //AIService m_aiService = new AIService();
 
-    MsgTestService msgTestService = new MsgTestService();
+    //MsgTestService msgTestService = new MsgTestService();
 
     public SyncService() : base(new ProtocolReceiveFilterFactory())
     {
@@ -54,9 +54,9 @@ public class SyncService : AppServer<SyncSession, ProtocolRequestBase>
         selectCharacterService.Init(this, config);
         settlementService.Init(this, config);
 
-        m_aiService.Init(this,config);
+        //m_aiService.Init(this,config);
 
-        msgTestService.Init(this, config);
+        //msgTestService.Init(this, config);
 
         CommandMessageService<CommandComponent>.Init();
 

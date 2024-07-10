@@ -1,1 +1,51 @@
-﻿
+﻿2024-07-10 11:41:24,219 [27132] ERROR LockStepDemo - methodIndex:203 
+Ex:System.Exception: AnalysisData Excepiton Data is ->changesingletoncomponentmsg<-
+FieldName:->frame<-
+FieldType:->TYPE_int32<-
+RepeatType:->RT_equired<-
+CustomType:-><-
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Protocol.ByteArray.ReadInt32() 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ByteArray.cs:行号 110
+   在 Protocol.ProtocolReceiveFilter.ReadInt32(ByteArray ba) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 627
+   在 Protocol.ProtocolReceiveFilter.AnalysisData(String MessageType, Byte[] bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 530
+   在 Protocol.ProtocolReceiveFilter.AnalysisData(String MessageType, Byte[] bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 574
+   在 Protocol.ProtocolReceiveFilter.Analysis(ByteArray bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 449
+2024-07-10 11:48:07,040 [21456] ERROR LockStepDemo - methodIndex:203 
+Ex:System.Exception: AnalysisData Excepiton Data is ->changesingletoncomponentmsg<-
+FieldName:->frame<-
+FieldType:->TYPE_int32<-
+RepeatType:->RT_equired<-
+CustomType:-><-
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Protocol.ByteArray.ReadInt32() 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ByteArray.cs:行号 110
+   在 Protocol.ProtocolReceiveFilter.ReadInt32(ByteArray ba) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 627
+   在 Protocol.ProtocolReceiveFilter.AnalysisData(String MessageType, Byte[] bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 530
+   在 Protocol.ProtocolReceiveFilter.AnalysisData(String MessageType, Byte[] bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 574
+   在 Protocol.ProtocolReceiveFilter.Analysis(ByteArray bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 449
+2024-07-10 11:57:40,601 [21296] ERROR LockStepDemo - methodIndex:203 
+Ex:System.Exception: AnalysisData Excepiton Data is ->changesingletoncomponentmsg<-
+FieldName:->info<-
+FieldType:->TYPE_custom<-
+RepeatType:->RT_equired<-
+CustomType:->componentinfo<-
+System.Exception: ReadDictionary Excepiton DictName is ->componentinfo<-
+FieldName:-><-
+FieldType:->Error<-
+RepeatType:->RT_equired<-
+CustomType:-><-
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Protocol.ByteArray.ReadUInt() 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ByteArray.cs:行号 95
+   在 Protocol.ProtocolReceiveFilter.ReadDictionary(String dictName, ByteArray ba) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 714
+   在 Protocol.ProtocolReceiveFilter.ReadDictionary(String dictName, ByteArray ba) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 816
+   在 Protocol.ProtocolReceiveFilter.AnalysisData(String MessageType, Byte[] bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 565
+   在 Protocol.ProtocolReceiveFilter.AnalysisData(String MessageType, Byte[] bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 574
+   在 Protocol.ProtocolReceiveFilter.Analysis(ByteArray bytes) 位置 F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Server\LockStepDemo\ServiceFrameWork\Protocol\ProtocolReceiveFilter.cs:行号 449

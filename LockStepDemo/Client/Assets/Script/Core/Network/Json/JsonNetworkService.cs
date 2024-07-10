@@ -7,6 +7,7 @@ using System.Net;
 using System.Text;
 using System.Collections.Generic;
 using FrameWork;
+using MiniJSON;
 
 public class JsonNetworkService : INetworkInterface 
 {

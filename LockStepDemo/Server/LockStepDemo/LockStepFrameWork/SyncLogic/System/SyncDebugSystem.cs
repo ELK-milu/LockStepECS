@@ -141,6 +141,8 @@ class SyncDebugSystem : SystemBase
             info.m_compName = SingleCompFilter[i];
             info.content = Serializer.Serialize(sc);
 
+            // TODO: 地图验证
+            /*
             if (info.m_compName == "MapGridStateComponent")
             {
                 MapGridStateComponent lmsc = (MapGridStateComponent)sc;
@@ -155,7 +157,7 @@ class SyncDebugSystem : SystemBase
                     Debug.Log("验证通过 " + m_world.FrameCount);
                 }
             }
-
+            */
             msg.singleCompInfo.Add(info);
         }
 
@@ -168,6 +170,7 @@ class SyncDebugSystem : SystemBase
         }
     }
 
+    /*
     bool JudgeDict(Dictionary<int, MapCell> a, Dictionary<int, MapCell> b)
     {
         foreach (var item in a)
@@ -207,6 +210,7 @@ class SyncDebugSystem : SystemBase
 
         return true;
     }
+    */
 
     public static bool IsFilter(string compName)
     {

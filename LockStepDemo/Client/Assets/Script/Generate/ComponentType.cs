@@ -33,20 +33,22 @@ public  partial class ComponentType :ComponentTypeBase
 	 public const int PlayerCommandRecordComponent = 26;
 	 public const int RealPlayerComponent = 27;
 	 public const int SelfComponent = 28;
-	 public const int SyncComponent = 29;
-	 public const int TheirComponent = 30;
-	 public const int AssetComponent = 31;
-	 public const int BlockComponent = 32;
-	 public const int CampComponent = 33;
-	 public const int CollisionComponent = 34;
-	 public const int FlyObjectComponent = 35;
-	 public const int InputComponent = 36;
-	 public const int ItemComponent = 37;
-	 public const int ItemCreatePointComponent = 38;
-	 public const int TransfromComponent = 39;
+	 public const int ServiceComponent = 29;
+	 public const int WaitSyncComponent = 30;
+	 public const int SyncComponent = 31;
+	 public const int TheirComponent = 32;
+	 public const int AssetComponent = 33;
+	 public const int BlockComponent = 34;
+	 public const int CampComponent = 35;
+	 public const int CollisionComponent = 36;
+	 public const int FlyObjectComponent = 37;
+	 public const int InputComponent = 38;
+	 public const int ItemComponent = 39;
+	 public const int ItemCreatePointComponent = 40;
+	 public const int TransfromComponent = 41;
 	public override int Count()
 	  {
-		 return 40;
+		 return 42;
 	   }
 
 
@@ -114,6 +116,10 @@ public  partial class ComponentType :ComponentTypeBase
 				 return RealPlayerComponent ; 
 			 case "SelfComponent" : 
 				 return SelfComponent ; 
+			 case "ServiceComponent" : 
+				 return ServiceComponent ; 
+			 case "WaitSyncComponent" : 
+				 return WaitSyncComponent ; 
 			 case "SyncComponent" : 
 				 return SyncComponent ; 
 			 case "TheirComponent" : 

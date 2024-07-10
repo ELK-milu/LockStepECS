@@ -21,6 +21,7 @@ public class ConnectionComponent : ServiceComponent
 
     public List<PlayerCommandBase> m_commandList = new List<PlayerCommandBase>();
     public PlayerCommandBase m_defaultInput = null;   //默认输入
+    public PlayerCommandBase m_lastInputCache = null;
 
     public List<EntityBase> m_waitSyncEntity = new List<EntityBase>(); //等待同步的实体
     public List<int> m_waitDestroyEntity = new List<int>();            //等待同步删除的实体
@@ -116,6 +117,7 @@ public class ConnectionComponent : ServiceComponent
         }
 
         LastInputFrame = cmd.frame;
+        m_lastInputCache = cmd;
         m_commandList.Add(cmd);
 
         //if (m_commandList.Count > 0

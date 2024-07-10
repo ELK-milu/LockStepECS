@@ -104,7 +104,7 @@ public class SystemBase
     #endregion
 
     #region FixUpdate 前后端以同样频率执行
-
+    public virtual void NoRecalcBeforeFixedUpdate(int deltaTime) { }
     public virtual void BeforeFixedUpdate(int deltaTime) { }
 
     public virtual void FixedUpdate(int deltaTime) { }
@@ -138,7 +138,7 @@ public class SystemBase
     #endregion
 
     #region 事件回调
-
+    public virtual void OnEntityCompChange(EntityBase entity, string compName, ComponentBase previousComponent, ComponentBase newComponent) { }
     public virtual void OnEntityOptimizeCreate(EntityBase entity)
     {
 
@@ -173,8 +173,16 @@ public class SystemBase
     {
 
     }
+    public virtual void OnEntityCompAdd(EntityBase entity, string compName, ComponentBase component)
+    {
+
+    }
 
     public virtual void OnEntityCompRemove(EntityBase entity, int compIndex, ComponentBase component)
+    {
+
+    }
+    public virtual void OnEntityCompRemove(EntityBase entity, string compName, ComponentBase component)
     {
 
     }

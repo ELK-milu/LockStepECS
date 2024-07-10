@@ -33,7 +33,7 @@ class DemoWorld : WorldBase
             
             //服务器系统
             typeof(ConnectSystem),
-            typeof(PlayerInputSystem),
+            //typeof(PlayerInputSystem<PlayerCommandBase>),
             typeof(ServiceSyncSystem),
 
             //Debug

@@ -70,7 +70,8 @@ namespace Protocol
     public interface IProtocolStructInterface { }
 
     /// <summary>
-    /// 
+    /// CsharpProtocolInterface接口继承自IProtocolMessageInterface，用于特定的协议处理。
+    /// 该接口定义了C#中实现协议消息处理的类应遵循的规范。
     /// </summary>
     public interface CsharpProtocolInterface : IProtocolMessageInterface { }
 }

@@ -120,7 +120,7 @@ public abstract class WorldBase
 
 	#region 对象和系统的集合
 
-	//Stack<EntityBase> m_entitiesPool = new Stack<EntityBase>();  //TODO: 实体对象池
+	Stack<EntityBase> m_entitiesPool = new Stack<EntityBase>();  //TODO: 实体对象池
 
 	public ECSGroupManager group = null;
 	public List<SystemBase> m_systemList = new List<SystemBase>();                 //世界里所有的System列表
@@ -198,6 +198,10 @@ public abstract class WorldBase
 	}
 
 	public virtual Type[] GetRecordTypes()
+	{
+		return new Type[0];
+	}
+	public virtual Type[] GetRecordSystemTypes()
 	{
 		return new Type[0];
 	}
@@ -824,7 +828,7 @@ public abstract class WorldBase
 
 	#region 实体相关
 
-	//List<EntityBase> createCache = new List<EntityBase>();
+	List<EntityBase> createCache = new List<EntityBase>();
 	List<EntityBase> destroyCache = new List<EntityBase>();
 
 	//集中执行实体的创建删除操作
@@ -845,6 +849,17 @@ public abstract class WorldBase
 
 	#region 创建
 
+	/// <summary>
+	/// 根据GameObject的Name建立对应的实体联系
+	/// </summary>
+	/// <param name="obj"></param>
+	/// <param name="comps"></param>
+	/// <returns></returns>
+	public EntityBase CreateEntity(GameObject obj, params ComponentBase[] comps)
+	{
+		EntityBase entity = CreateEntity(obj.name,comps);
+		return entity;
+	}
 	public EntityBase CreateEntity(string identifier, params ComponentBase[] comps)
 	{
 		identifier = FrameCount + identifier;
@@ -1570,8 +1585,8 @@ public abstract class WorldBase
 		for (int j = 0; j < list.Count; j++)
 		{
 			AddRecordComponent(list[j]);
-			//PlayerCommandRecordComponent tmp = list[j].GetComp<PlayerCommandRecordComponent>(ComponentType.PlayerCommandRecordComponent);
-			//isAllMessage &= tmp.GetAllMessage(FrameCount + 1);
+			PlayerCommandRecordComponent tmp = list[j].GetComp<PlayerCommandRecordComponent>(ComponentType.PlayerCommandRecordComponent);
+			isAllMessage &= tmp.GetAllMessage(FrameCount + 1);
 		}
 
 		return isAllMessage;
@@ -1593,8 +1608,8 @@ public abstract class WorldBase
 			for (int j = 0; j < list.Count; j++)
 			{
 				AddRecordComponent(list[j]);
-				//PlayerCommandRecordComponent tmp = list[j].GetComp<PlayerCommandRecordComponent>(ComponentType.PlayerCommandRecordComponent);
-				//isAllMessage &= tmp.GetAllMessage(i);
+				PlayerCommandRecordComponent tmp = list[j].GetComp<PlayerCommandRecordComponent>(ComponentType.PlayerCommandRecordComponent);
+				isAllMessage &= tmp.GetAllMessage(i);
 			}
 
 			if (isAllMessage)
@@ -1611,13 +1626,13 @@ public abstract class WorldBase
 
 	public void AddRecordComponent(EntityBase entity)
 	{
-		//if (!entity.GetExistComp(ComponentType.PlayerCommandRecordComponent))
-		//{
-		//    PlayerCommandRecordComponent rc = new PlayerCommandRecordComponent();
+		if (!entity.GetExistComp(ComponentType.PlayerCommandRecordComponent))
+		{
+			PlayerCommandRecordComponent rc = new PlayerCommandRecordComponent();
 
-		//    //自动添加记录组件
-		//    entity.AddComp(rc);
-		//}
+			//自动添加记录组件
+			entity.AddComp(rc);
+		}
 	}
 
 	private bool isGetHashCode = false;

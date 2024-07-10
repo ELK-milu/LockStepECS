@@ -1,5 +1,4 @@
-﻿using LockStepDemo.Service;
-using Protocol;
+﻿using Protocol;
 using SuperSocket.SocketBase;
 using SuperSocket.SocketEngine;
 using System;

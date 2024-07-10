@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using FrameWork;
+using MiniJSON;
 using System.Net.Sockets;
 
 public class NetworkManager 
@@ -121,6 +122,7 @@ public class NetworkManager
     {
         if(IsConnect)
         {
+            Debug.Log("sendQuery");
             s_network.SendMessage(messageType,data);
         }
         else

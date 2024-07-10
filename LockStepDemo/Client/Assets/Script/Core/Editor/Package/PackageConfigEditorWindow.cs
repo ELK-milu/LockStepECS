@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using MiniJSON;
+using UnityEngine;
 using System.Collections;
 using UnityEditor;
 using System.Collections.Generic;
@@ -1759,7 +1760,7 @@ public class BundleConfigEditorWindow : EditorWindow
         EditorUtil.WriteStringByFile(
             PathTool.GetAbsolutePath(ResLoadLocation.Resource,
             ResourcesConfigManager.c_ManifestFileName + "." + ConfigManager.c_expandName)
-            , FrameWork.Json.Serialize(data));
+            , Json.Serialize(data));
 
         Debug.Log("保存完毕 序列化时间: " + (Time.realtimeSinceStartup - time));
 

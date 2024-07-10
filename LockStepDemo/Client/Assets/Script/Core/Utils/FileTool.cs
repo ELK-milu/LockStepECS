@@ -1,11 +1,11 @@
-﻿using UnityEngine;
-using System.Collections;
-using System.IO;
-using System;
-using System.Text;
+﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
 
-public class FileTool  
+
+public class FileTool
 {
     #region 文件与路径的增加删除创建
 
@@ -22,6 +22,11 @@ public class FileTool
         CreatPath(newPathDir);
     }
 
+    public static string GetExpandName(string name)
+    {
+        return name.Substring(name.LastIndexOf(".") + 1, (name.Length - name.LastIndexOf(".") - 1));
+    }
+    
     /// <summary>
     /// 判断有没有这个路径，如果没有则创建它
     /// </summary>
@@ -77,7 +82,7 @@ public class FileTool
         foreach (FileSystemInfo fsi in info.GetFileSystemInfos())
         {
             string destName = Path.Combine(destinationPath, fsi.Name);
-            //Debug.Log(destName);
+            //Console.WriteLine(destName);
 
             if (fsi is FileInfo)          //如果是文件，复制文件
                 File.Copy(fsi.FullName, destName);
@@ -110,7 +115,7 @@ public class FileTool
                 SafeDeleteDirectory(pathTmp);
                 try
                 {
-                    Directory.Delete(pathTmp,false);
+                    Directory.Delete(pathTmp, false);
                 }
                 catch
                 {
@@ -152,14 +157,14 @@ public class FileTool
         foreach (FileSystemInfo fsi in info.GetFileSystemInfos())
         {
             string destName = Path.Combine(destinationPath, fsi.Name);
-            //Debug.Log(destName);
+            //Console.WriteLine(destName);
 
             if (fsi is FileInfo)          //如果是文件，复制文件
                 try
                 {
                     File.Copy(fsi.FullName, destName);
                 }
-                catch{}
+                catch { }
             else                                    //如果是文件夹，新建文件夹，递归
             {
                 Directory.CreateDirectory(destName);
@@ -189,11 +194,6 @@ public class FileTool
         }
     }
 
-    public static string GetExpandName(string name)
-    {
-        return name.Substring(name.LastIndexOf(".") + 1, (name.Length - name.LastIndexOf(".") - 1));
-    }
-
     //取出一个路径下的文件名
     public static string GetFileNameByPath(string path)
     {
@@ -206,6 +206,25 @@ public class FileTool
     {
         string[] paths = path.Split('/');
         return paths[paths.Length - 1];
+    }
+
+    #endregion
+
+    #region 文件工具
+
+    /// <summary>
+    /// 获取某个目录下的相对路径
+    /// </summary>
+    /// <param name="FullPath">完整路径</param>
+    /// <param name="DirectoryPath">目标目录</param>
+    public static string GetDirectoryRelativePath(string DirectoryPath, string FullPath)
+    {
+        DirectoryPath = DirectoryPath.Replace(@"\", "/");
+        FullPath = FullPath.Replace(@"\", "/");
+
+        FullPath = FullPath.Replace(DirectoryPath, "");
+
+        return FullPath;
     }
 
     #endregion
@@ -294,7 +313,7 @@ public class FileTool
                     {
                         charByteCounter++;
                     }
-                    //标记位首位若为非0 则至少以2个1开始 如:110XXXXX......1111110X　 
+                    //标记位首位若为非0 则至少以2个1开始 如:110XXXXX...........1111110X　 
                     if (charByteCounter == 1 || charByteCounter > 6)
                     {
                         return false;
@@ -347,7 +366,7 @@ public class FileTool
             }
             catch (Exception e)
             {
-                Debug.LogError("RecursionFileExecute Error :" + item + " Exception:" + e.ToString());
+                Console.WriteLine("RecursionFileExecute Error :" + item + " Exception:" + e.ToString());
             }
         }
 
@@ -359,6 +378,69 @@ public class FileTool
     }
     #endregion
 
+    #region 读操作
+    public static string ReadStringByFile(string path)
+    {
+        StringBuilder line = new StringBuilder();
+        try
+        {
+            if (!File.Exists(path))
+            {
+                Console.WriteLine("path dont exists ! : " + path);
+                return "";
+            }
+
+            StreamReader sr = File.OpenText(path);
+            line.Append(sr.ReadToEnd());
+
+            sr.Close();
+            sr.Dispose();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("Load text fail ! message:" + e.Message);
+        }
+
+        return line.ToString();
+    }
+
+    #endregion
+
+    #region 写操作
+    //web Player 不支持写操作
+    public static void WriteStringByFile(string path, string content)
+    {
+        byte[] dataByte = Encoding.GetEncoding("UTF-8").GetBytes(content);
+
+        CreateFile(path, dataByte);
+    }
+
+    public static void DeleteFile(string path)
+    {
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+        else
+        {
+            Console.WriteLine("File:[" + path + "] dont exists");
+        }
+    }
+
+    public static void CreateFile(string path, byte[] byt)
+    {
+        try
+        {
+            FileTool.CreatFilePath(path);
+            File.WriteAllBytes(path, byt);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("File Create Fail! \n" + e.Message);
+        }
+    }
+
+    #endregion
     #region 获取一个路径下的所有文件
 
     public static List<string> GetAllFileNamesByPath(string path,string[] expandNames = null)
@@ -418,3 +500,4 @@ public class FileTool
 }
 
 public delegate void FileExecuteHandle(string filePath);
+

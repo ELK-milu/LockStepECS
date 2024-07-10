@@ -10,12 +10,12 @@ public class ReConnectService : ServiceBase
     //掉线的玩家列表
     public Dictionary<string, ConnectionComponent> m_disConnectDict = new Dictionary<string, ConnectionComponent>();
 
-    protected override  void OnInit(IServerConfig config)
+    public override  void OnInit(IServerConfig config)
     {
         EventService.AddEvent(ServiceEventDefine.ServiceEvent.GameFinsih, OnGameFinsih);
     }
 
-    protected override void OnPlayerLogin(Player player)
+    public override void OnPlayerLogin(Player player)
     {
         if(m_disConnectDict.ContainsKey(player.playerID))
         {
@@ -23,7 +23,8 @@ public class ReConnectService : ServiceBase
             PlayerMatchMsg_c msg = new PlayerMatchMsg_c();
             msg.isMatched = true;
             msg.predictTime = 0;
-            msg.matchInfo = new List<MatchPlayerInfo>();
+            // TODO: 重连玩家信息重新加载房间信息
+            //msg.matchInfo = new List<MatchPlayerInfo>();
             ProtocolAnalysisService.SendMsg(player.session, msg);
 
             ConnectionComponent conn = m_disConnectDict[player.playerID];
@@ -36,7 +37,7 @@ public class ReConnectService : ServiceBase
         }
     }
 
-    protected override void OnPlayerLogout(Player player)
+    public override void OnPlayerLogout(Player player)
     {
         if(player.session.m_connect != null)
         {

@@ -38,27 +38,27 @@ public class CreateItemSystem : SystemBase
     //    }
     //}
 
-    //public void CreateRandomItem(ItemCreatePointComponent comp)
-    //{
-    //    //创建一个可以捡的道具
-    //    CollisionComponent colc = new CollisionComponent();
-    //    colc.area.position = comp.pos.ToVector();
-    //    colc.area.areaType = AreaType.Circle;
-    //    colc.area.radius = 0.5f;
+    public void CreateRandomItem(ItemCreatePointComponent comp)
+    {
+        //创建一个可以捡的道具
+        CollisionComponent colc = new CollisionComponent();
+        colc.area.position = comp.pos.ToVector();
+        colc.area.areaType = AreaType.Circle;
+        colc.area.radius = 0.5f;
 
-    //    ItemComponent ic = new ItemComponent();
-    //    AssetComponent assert = new AssetComponent();
-    //    TransfromComponent tc = new TransfromComponent();
+        ItemComponent ic = new ItemComponent();
+        AssetComponent assert = new AssetComponent();
+        TransfromComponent tc = new TransfromComponent();
 
-    //    tc.pos = comp.pos;
+        tc.pos = comp.pos;
 
-    //    Random random = new Random();
-    //    int r =  random.Next() % comp.randomList.Count;
-    //    assert.m_assetName = comp.randomList[r];
+        Random random = new Random();
+        int r =  random.Next() % comp.randomList.Count;
+        assert.m_assetName = comp.randomList[r];
 
-    //    string identify = comp.Entity.ID + "Item" + comp.pos.ToVector(); //通过标识符保证唯一ID
-    //    m_world.CreateEntity(identify, colc, ic, assert, tc);
-    //}
+        string identify = comp.Entity.ID + "Item" + comp.pos.ToVector(); //通过标识符保证唯一ID
+        m_world.CreateEntity(identify, colc, ic, assert, tc);
+    }
 
     //bool CanCreate(CollisionComponent comp)
     //{

@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using System.IO;
 using FrameWork;
+using MiniJSON;
 
 public class ConfigEditorWindow : EditorWindow
 {

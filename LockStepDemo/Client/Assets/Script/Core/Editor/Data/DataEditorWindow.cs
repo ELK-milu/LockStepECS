@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using FrameWork;
+using MiniJSON;
 
 public class DataEditorWindow : EditorWindow
 {

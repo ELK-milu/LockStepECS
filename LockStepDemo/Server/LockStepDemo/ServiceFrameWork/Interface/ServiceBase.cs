@@ -22,27 +22,27 @@ public abstract class ServiceBase
         OnInit(config);
     }
 
-    protected virtual void OnInit(IServerConfig config)
+    public virtual void OnInit(IServerConfig config)
     {
 
     }
 
-    protected virtual void OnSessionCreate(SyncSession session)
+    public virtual void OnSessionCreate(SyncSession session)
     {
 
     }
 
-    protected virtual void OnSessionClose(SyncSession session, CloseReason reason)
+    public virtual void OnSessionClose(SyncSession session, CloseReason reason)
     {
 
     }
 
-    protected virtual void OnPlayerLogin(Player player)
+    public virtual void OnPlayerLogin(Player player)
     {
 
     }
 
-    protected virtual void OnPlayerLogout(Player player)
+    public virtual void OnPlayerLogout(Player player)
     {
 
     }

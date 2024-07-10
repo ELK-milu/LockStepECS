@@ -13,7 +13,7 @@ public class TimerService : ServiceBase
     Timer timer;
     int m_secondCount = 0;
 
-    protected override void OnInit(IServerConfig config)
+    public override void OnInit(IServerConfig config)
     {
         timer = new Timer(
             new TimerCallback(ReceviceTimerTick), null,

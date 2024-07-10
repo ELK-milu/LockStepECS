@@ -42,87 +42,87 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Core\Editor\Test\ResourcesLoad\ResourcesTest.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCodePostProcess.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\Component\TestCommandComponent.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\Plist\Plist.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\Component\TestCommandComponent.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UIStyleComponentEditor.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\EntityViewWindow.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\Component\TestMoveComponent.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
+    <Compile Include="Assets\Script\Core\Editor\EntityViewWindow.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\Component\TestMoveComponent.cs" />
     <Compile Include="Assets\Script\Core\Editor\EditorWindow\UnityInternalIconWindow.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Editor\ToLuaTree.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\ComponentsNameToConstEditorTool.cs" />
+    <Compile Include="Assets\Script\Core\Editor\ComponentsNameToConstEditorTool.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\EditorUtilGUI.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\EditorUtil.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\MiniJSON\MiniJSON.cs" />
     <Compile Include="Assets\Script\Core\Editor\GameDataBase\GameDataMonitorEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\componment\LanguageComponmentEditor.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\SyncDebugEditorWindow.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCProject.cs" />
+    <Compile Include="Assets\Script\Core\Editor\SyncDebugEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\Package\ProjectBuildService.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCBuildConfiguration.cs" />
     <Compile Include="Assets\Script\Core\Editor\Language\LanguageDataEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\Package\PackageEditorConfigService.cs" />
     <Compile Include="Assets\Script\Core\Editor\SDKManager\SDKEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\EditorCoroutineRunner.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\EditorExpand.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXProject.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\System\LockStepTestMoveSystem.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\System\LockStepTestMoveSystem.cs" />
     <Compile Include="Assets\Script\Core\Editor\Font\BFMenuTool.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXParser.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXObject.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXVariantGroup.cs" />
     <Compile Include="Assets\Script\Core\Editor\GuideSystem\GuideSystemEditor.cs" />
     <Compile Include="Assets\Script\Core\Editor\Record\RecordEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\Test\UI\UITest.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\LockStepEntityTestWorld.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\System\LockStepTestInitSystem.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\LockStepEntityTestWorld.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\System\LockStepTestInitSystem.cs" />
     <Compile Include="Assets\Script\Core\Editor\EditorWindow\EditorStyleViewer.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\AppyPrefabs.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\ImportTool.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UITemplate.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCConfigurationList.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\Component\TestSingleComponent.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\Component\TestLifeSpanComponent.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\Component\TestSingleComponent.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\Component\TestLifeSpanComponent.cs" />
     <Compile Include="Assets\Script\Core\Editor\Package\VersionService.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\System\LockStepInputSystem.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCMod.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XClass.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCProject.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\System\LockStepInputSystem.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXObject.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCPlist.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UICreateService.cs" />
     <Compile Include="Assets\Script\Core\Editor\Network\Protocol\ProtocolHelper.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCodePostProcess.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Editor\ToLuaMenu.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
     <Compile Include="Assets\Script\Core\Editor\Font\FntParse.cs" />
     <Compile Include="Assets\Script\Core\Editor\Package\PackageService.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\System\LockSteppTestLifeSpanSystem.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\System\LockSteppTestLifeSpanSystem.cs" />
     <Compile Include="Assets\Script\Core\Editor\Config\ConfigEditorWindow.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\LockStepFrameUnitTest.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\LockStepFrameUnitTest.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXProject.cs" />
     <Compile Include="Assets\Script\Core\Editor\Package\PackageConfigEditorWindow.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXGroup.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Editor\Custom\CustomSettings.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Editor\Test\System\LockStepTestFireSystem.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
+    <Compile Include="Assets\Script\Core\Editor\Test\System\LockStepTestFireSystem.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UIStyleManager.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCBuildConfiguration.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXParser.cs" />
     <Compile Include="Assets\Script\Core\Editor\Font\BFImporter.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXList.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Editor\ToLuaExport.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UIStyleInfo.cs" />
     <Compile Include="Assets\Script\Core\Editor\Test\Protocol\ProtocolMsgTest.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\componment\ReusingScrollRectEditor.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXBuildFile.cs" />
     <Compile Include="Assets\Script\Core\Editor\Lua\LuaEditorWindow.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCConfigurationList.cs" />
     <Compile Include="Assets\Script\Core\Editor\Utils\BatchReplaceNameTool.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XClass.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCMod.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UIBaseWindowEditor.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXDictionary.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXList.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UIStyleConfigManager.cs" />
     <Compile Include="Assets\Script\Core\Editor\SDKManager\SchemeDataService.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXBuildPhase.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\EditorGUIStyleData.cs" />
     <Compile Include="Assets\Script\Core\Editor\UI\UIEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\Reflection\ReflectionEdtorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\Application\ApplicationManagerComponentEditor.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\XCPlist.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXSortedDictionary.cs" />
     <Compile Include="Assets\Script\Core\Editor\Test\Application\ApplicationLunchTest.cs" />
-    <Compile Include="Assets\Script\Core\Editor\XUPorter\PBX Editor\PBXFileReference.cs" />
     <Compile Include="Assets\Script\Core\Editor\Data\DataEditorWindow.cs" />
+    <Compile Include="Assets\Script\Core\Editor\XUPorter\Plist\Plist.cs" />
     <None Include="Assets\Script\Core\Editor\res\LuaLib\LuaStringHelper.txt" />
     <None Include="Assets\Script\Core\Editor\res\LuaLib\FrameWork\Status\LuaStatusManager.txt" />
     <None Include="Assets\Script\Core\Editor\res\LuaLib\LuaFormatTools.txt" />
@@ -409,8 +409,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>E:\Unity\2021.3.34f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\SuperSocket.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Debugger">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\Core\Lua\ToLua\Plugins\Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="Box2DX">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\Box2DX.dll</HintPath>
     </Reference>
     <Reference Include="DemiEditor">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
@@ -426,6 +432,9 @@
     </Reference>
     <Reference Include="DOTween">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\SuperSocket.SocketEngine.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
@@ -451,11 +460,11 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Box2DX">
-      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\Plugins\Box2DX.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -865,17 +874,9 @@
       <Project>{1249e745-55ff-a8e3-0f78-da587d5db6fe}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{c2cda625-0b5d-60cd-d120-7417ddeab9c3}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{ec1e15b3-1bef-d0b0-344d-0ffc509e976b}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{812f6b7c-cb6e-6af1-814c-085855f52ae1}</Project>
-      <Name>PPv2URPConverters</Name>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{0923f0f7-1895-728f-bd36-bdbf3dc88077}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{fd665364-c963-e163-6596-4c20ad8e4434}</Project>
@@ -884,6 +885,10 @@
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{6805584b-9530-10d5-222e-abc84e47fecf}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{833d5cb4-bd07-5d94-ffa3-9eedba5ff57e}</Project>
+      <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{580f465d-fdca-07d7-25ea-19248de840f7}</Project>
@@ -901,21 +906,9 @@
       <Project>{65b86fb0-cdd8-db9a-d848-342e874a621a}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{4279579b-d6ac-1bf8-cde3-8914be8058c4}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{1709ca23-be6b-6b11-629d-d425bbd0afc6}</Project>
-      <Name>Unity.Searcher.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
       <Project>{282ef7af-8252-a1df-1ce2-88737a4e4eb9}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{3d835ad3-4de7-26c0-86ff-3e694e9e024d}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{0a1b6108-a48d-e0ed-e180-16428cf0f128}</Project>
@@ -933,69 +926,17 @@
       <Project>{25ade108-912d-7485-4125-aac4e3673b6a}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{519cf978-3c36-b33e-66c3-f8d543cb0020}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{4e97dac8-471b-8ebc-e6a8-7bf55a8b1a61}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{3142a23b-f984-24ba-0f60-e74cf095f40a}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{b50b90c1-cad8-c1b9-3296-e2b0d9df2044}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{080b4d96-dc23-12cc-89ea-52f51a9bc3b7}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{07830e37-335e-b7cc-fb8e-53cac0668c49}</Project>
-      <Name>Cinemachine</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{c6e34459-199c-c024-514a-14fdedcefeb8}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{860e6c1d-5a34-40d3-048d-48689b42a856}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{148500f7-362a-854d-6e95-6604e188694c}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{0923f0f7-1895-728f-bd36-bdbf3dc88077}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{46483ce8-398f-7b1f-da20-51dd2af94b5c}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{833d5cb4-bd07-5d94-ffa3-9eedba5ff57e}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{38be4fe7-4973-eee3-f59f-65586c47bc70}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{b99647d3-f797-f2e6-0d00-9cfb4c060248}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{40a11c74-5b85-49cf-80b3-c95e2e3ed3fb}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{8f2dbcee-88a1-ffac-cde2-186b4467005c}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{3142a23b-f984-24ba-0f60-e74cf095f40a}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

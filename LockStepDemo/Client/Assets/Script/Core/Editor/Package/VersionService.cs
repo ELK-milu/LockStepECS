@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using MiniJSON;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -72,7 +73,7 @@ public class VersionService
 
         EditorUtil.WriteStringByFile(
             PathTool.GetAbsolutePath(ResLoadLocation.Resource, HotUpdateManager.c_versionFileName + ".json"),
-            FrameWork.Json.Serialize(VersionData));
+            Json.Serialize(VersionData));
 
         AssetDatabase.Refresh();
     }
@@ -89,7 +90,7 @@ public class VersionService
         }
         else
         {
-            VersionData = (Dictionary<string, object>)FrameWork.Json.Deserialize(version);
+            VersionData = (Dictionary<string, object>)Json.Deserialize(version);
         }
 
         if (VersionData == null)

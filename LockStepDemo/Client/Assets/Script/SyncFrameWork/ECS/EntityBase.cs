@@ -77,10 +77,10 @@ public class EntityBase
 
     public ComponentBase[] comps = null;
 
-    //public bool GetExistComp<T>()where T : ComponentBase, new()
-    //{
-    //    return GetExistComp(typeof(T).Name);
-    //}
+    public bool GetExistComp<T>()where T : ComponentBase, new()
+    {
+        return GetExistComp(typeof(T).Name);
+    }
 
     public bool GetExistComp(string compName)
     {

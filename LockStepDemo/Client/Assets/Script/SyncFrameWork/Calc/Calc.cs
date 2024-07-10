@@ -10,14 +10,14 @@ public class Calc
 
 public struct SyncVector3 : IProtocolStructInterface
 {
-    public readonly static SyncVector3 Zero = new SyncVector3(0, 0, 0);
+    public static SyncVector3 Zero = new SyncVector3(0, 0, 0);
 
     public int x;
     public int y;
     public int z;
 
 
-    public SyncVector3(int x ,int y ,int z)
+    public SyncVector3(int x, int y, int z)
     {
         this.x = x;
         this.y = y;
@@ -186,7 +186,7 @@ public struct SyncVector3 : IProtocolStructInterface
 
     public override bool Equals(object obj)
     {
-        if(obj is SyncVector3)
+        if (obj is SyncVector3)
         {
             return this == (SyncVector3)obj;
         }

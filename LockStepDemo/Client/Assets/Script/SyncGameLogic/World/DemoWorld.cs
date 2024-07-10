@@ -27,7 +27,7 @@ class DemoWorld : WorldBase
             //typeof(BuffSystem),
 
             //初始化
-            //typeof(InitSystem),
+            typeof(InitSystem),
             
             //表现层
             typeof(HealthBarSystem),
@@ -35,7 +35,7 @@ class DemoWorld : WorldBase
             typeof(CreatePerfabSystem),
             typeof(MovePerfabSystem),
             typeof(InputSystem),
-            //typeof(SyncSystem<CommandComponent>),
+            typeof(SyncSystem<CommandComponent>),
             typeof(PlayerAnimSystem),
             typeof(SkillBehaviorSystem),
             typeof(DestroyEffectSystem),

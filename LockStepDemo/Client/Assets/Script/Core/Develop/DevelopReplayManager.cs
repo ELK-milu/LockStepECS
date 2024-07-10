@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using DeJson;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -243,7 +244,7 @@ public class DevelopReplayManager
             if (content[i] != "")
             {
                 Dictionary<string, object> info = (Deserializer.Deserialize<Dictionary<string, object>> (content[i]));
-                IInputEventBase eTmp = (IInputEventBase)Deserializer.Deserialize(Type.GetType(info[c_eventNameKey].ToString()),info[c_serializeInfoKey].ToString());
+                IInputEventBase eTmp = (IInputEventBase)Deserializer.Deserialize(info[c_eventNameKey].GetType().Name,info[c_serializeInfoKey].ToString());
                 s_eventStream.Add(eTmp);
             }
         }

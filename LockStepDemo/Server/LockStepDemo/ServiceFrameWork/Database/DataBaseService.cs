@@ -9,7 +9,7 @@ using System.Text;
 public class DataBaseService : ServiceBase
 {
     public static IDatabase database;
-    protected override void OnInit(IServerConfig config)
+    public override void OnInit(IServerConfig config)
     {
         
         long time = ServiceTime.GetServiceTime();

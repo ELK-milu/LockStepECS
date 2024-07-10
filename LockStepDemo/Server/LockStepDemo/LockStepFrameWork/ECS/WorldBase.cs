@@ -28,7 +28,7 @@ public abstract class WorldBase
     }
 
     bool m_isStart = false;
-    bool isFinish = false;   //游戏结束
+    public bool isFinish = false;   //游戏结束
 
     bool m_isClient = false; //是否是在客户端运行
     bool m_isLocal = false;  //是否单机运行
@@ -198,6 +198,10 @@ public abstract class WorldBase
     }
 
     public virtual Type[] GetRecordTypes()
+    {
+        return new Type[0];
+    }
+    public virtual Type[] GetRecordSystemTypes()
     {
         return new Type[0];
     }
