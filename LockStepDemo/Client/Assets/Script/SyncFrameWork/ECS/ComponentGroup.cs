@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Serializable]
 public class ComponentGroup  {
     private int key;
 
@@ -42,4 +44,5 @@ public class ComponentGroup  {
             componentHashs[i] = world.componentType.GetComponentIndex(components[i]);
         }
     }
+
 }

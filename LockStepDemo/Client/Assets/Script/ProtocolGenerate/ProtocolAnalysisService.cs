@@ -59,7 +59,7 @@ public class ProtocolAnalysisService
 		else if(cmd is Protocol.CommandMsg )
 		{
 			SendCommandMsg(cmd);
-		} 
+		}
 		else if(cmd is Protocol.DebugMsg )
 		{
 			SendDebugMsg(cmd);
@@ -338,6 +338,7 @@ public class ProtocolAnalysisService
 		data.Add("id", e.id);
 		data.Add("frame", e.frame);
 		data.Add("time", e.time);
+		data.Add("isenable", e.isEnable);
 		NetworkManager.SendMessage("commandcomponent",data);
 	}
 	#endregion
@@ -577,6 +578,7 @@ public class ProtocolAnalysisService
 		msg.id = (int)e.Data["id"];
 		msg.frame = (int)e.Data["frame"];
 		msg.time = (int)e.Data["time"];
+		msg.isEnable = (bool)e.Data["isenable"];
 		
 		GlobalEvent.DispatchTypeEvent(msg);
 	}

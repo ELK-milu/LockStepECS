@@ -60,5 +60,8 @@ public abstract class ComponentBase
         return 0;
     }
 
-   
+    public ComponentBase()
+    {
+        
+    }
 }

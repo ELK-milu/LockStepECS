@@ -101,7 +101,6 @@
     <Compile Include="Assets\Script\SyncFrameWork\ECS\TupleBase.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\System\OperationSystem.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\Component\ServiceComponent.cs" />
-    <Compile Include="Assets\MoveMonoSystem.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\FastCollections\FastStack.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\ECS\MomentComponentBase.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\Component\CDComponent.cs" />
@@ -279,7 +278,7 @@
     <Compile Include="Assets\Script\Core\Input\Events\UI\InputUIOnBeginDragEvent.cs" />
     <Compile Include="Assets\Script\Core\Develop\FPSCounter.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\Component\ViewComponent.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\ECS\MonoSystem.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\ECS\MonoEntity.cs" />
     <Compile Include="Assets\Script\SyncClientLogic\Component\PlayerCameraComponent.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\System\ReconnectSystem.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Core\LuaState.cs" />
@@ -356,6 +355,7 @@
     <Compile Include="Assets\Script\Core\UI\Model\UIBase.cs" />
     <Compile Include="Assets\Script\Core\Network\NetworkManager.cs" />
     <Compile Include="Assets\Script\Core\Network\Interface\INetworkInterface.cs" />
+    <Compile Include="Assets\Script\Generate\ComponentEnum.cs" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\commontypes.ko.txt" />
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

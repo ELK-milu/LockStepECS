@@ -220,7 +220,6 @@ public abstract class WorldBase
 	public void Init(bool isClient)
 	{
 		eventSystem = new ECSEvent(this);
-
 		componentType = GetComponentType();
 		heapComponentPool = new ComponentPool(componentType.Count(),this);
 		//singletonComponents = new SingletonComponent[componentType.Count()];
@@ -849,7 +848,6 @@ public abstract class WorldBase
 	}
 
 	#region 创建
-
 	/// <summary>
 	/// 根据GameObject的Name建立对应的实体联系
 	/// </summary>
@@ -948,7 +946,7 @@ public abstract class WorldBase
 		return entity;
 	}
 
-	void AddEntity(EntityBase entity)
+	public void AddEntity(EntityBase entity)
 	{
 		if(IsRecalculate)
 		{
