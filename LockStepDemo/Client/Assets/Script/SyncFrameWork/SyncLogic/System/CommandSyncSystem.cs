@@ -41,7 +41,7 @@ public class CommandSyncSystem<T> : ViewSystemBase where T:PlayerCommandBase,new
 
     public override void BeforeFixedUpdate(int deltaTime)
     {
-        if(m_world.IsRecalc)
+        if(m_world.IsRecalculate)
         {
             OnlyCallByRecalc(m_world.FrameCount, deltaTime);
         }

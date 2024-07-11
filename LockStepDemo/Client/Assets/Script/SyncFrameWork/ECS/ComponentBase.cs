@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+[System.Serializable]
 public abstract class ComponentBase
 {
     private EntityBase entity;
 
     public static int hashCode;
+    public bool isEnable = true;
 
     public EntityBase Entity
     {

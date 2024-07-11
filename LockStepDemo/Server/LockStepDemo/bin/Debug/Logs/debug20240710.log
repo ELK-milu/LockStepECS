@@ -1,0 +1,157 @@
+﻿2024-07-10 10:49:48,425 [18480] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-10 10:49:48,782 [18480] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-10 10:49:50,406 [18480] DEBUG LockStepDemo - 创建连接 
+2024-07-10 10:49:53,357 [18480] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-10 10:49:53,358 [18480] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-10 10:49:53,358 [18480] DEBUG LockStepDemo - 数据库连接成功 用时4576ms
+2024-07-10 10:49:53,454 [18480] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-10 10:50:03,410 [18480] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-10 10:50:03,413 [18480] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-10 10:50:03,498 [18480] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-10 10:50:03,499 [18480] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-10 10:50:03,502 [18480] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-10 10:51:53,629 [28100] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 10:51:53,630 [28100] DEBUG LockStepDemo - SyncService OnNewSessionConnected 773c806f-3da9-4fa9-b6ec-3195d5f51ebd
+2024-07-10 10:51:53,632 [27132] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 10:52:18,469 [27132] DEBUG LockStepDemo - SyncService OnSessionClosed 773c806f-3da9-4fa9-b6ec-3195d5f51ebd
+2024-07-10 11:04:30,737 [26852] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:04:30,760 [26852] DEBUG LockStepDemo - SyncService OnNewSessionConnected 04dea808-b4f6-4bad-8644-9191d640fbb5
+2024-07-10 11:04:30,760 [27132] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:04:55,258 [27132] DEBUG LockStepDemo - SyncService OnSessionClosed 04dea808-b4f6-4bad-8644-9191d640fbb5
+2024-07-10 11:10:40,681 [19280] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:10:40,682 [19280] DEBUG LockStepDemo - SyncService OnNewSessionConnected 0135ba89-be21-4530-9a7d-42677bfd2084
+2024-07-10 11:10:40,682 [27132] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:22:58,245 [27132] DEBUG LockStepDemo - SyncService OnSessionClosed 0135ba89-be21-4530-9a7d-42677bfd2084
+2024-07-10 11:22:58,245 [29340] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:22:58,245 [29340] DEBUG LockStepDemo - SyncService OnNewSessionConnected 24c5a759-b647-4cbc-bb2b-5942e639a550
+2024-07-10 11:22:58,246 [24744] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:22:58,246 [24868] DEBUG LockStepDemo - SyncService OnSessionClosed 24c5a759-b647-4cbc-bb2b-5942e639a550
+2024-07-10 11:22:59,531 [29340] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:22:59,532 [29340] DEBUG LockStepDemo - SyncService OnNewSessionConnected 16615670-6e06-49e8-8e82-4f9c6b7616be
+2024-07-10 11:22:59,532 [24744] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:24:15,867 [19360] DEBUG LockStepDemo - SyncService OnSessionClosed 16615670-6e06-49e8-8e82-4f9c6b7616be
+2024-07-10 11:25:05,195 [27764] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:25:05,195 [27764] DEBUG LockStepDemo - SyncService OnNewSessionConnected d40bbd3b-35d8-4254-939b-d1e7f0d3a9f0
+2024-07-10 11:25:05,195 [27132] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:26:49,510 [27132] DEBUG LockStepDemo - SyncService OnSessionClosed d40bbd3b-35d8-4254-939b-d1e7f0d3a9f0
+2024-07-10 11:33:48,396 [31976] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:33:48,398 [31976] DEBUG LockStepDemo - SyncService OnNewSessionConnected a523df55-8a82-450f-9359-ccb81166d04f
+2024-07-10 11:33:48,398 [27132] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:41:21,548 [27132] DEBUG LockStepDemo - SyncService OnSessionClosed a523df55-8a82-450f-9359-ccb81166d04f
+2024-07-10 11:41:21,550 [26608] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:41:21,552 [26608] DEBUG LockStepDemo - SyncService OnNewSessionConnected 6ce6c0b4-b4c0-4845-bbf5-59b0908d5c93
+2024-07-10 11:41:21,553 [19360] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:47:46,958 [27588] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-10 11:47:47,039 [27588] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-10 11:47:47,068 [27588] DEBUG LockStepDemo - 创建连接 
+2024-07-10 11:47:48,055 [27588] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-10 11:47:48,055 [27588] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-10 11:47:48,056 [27588] DEBUG LockStepDemo - 数据库连接成功 用时1015ms
+2024-07-10 11:47:48,093 [27588] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-10 11:47:53,516 [27588] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-10 11:47:53,516 [27588] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-10 11:47:53,538 [27588] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-10 11:47:53,539 [27588] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-10 11:47:53,544 [27588] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-10 11:48:04,200 [23076] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:48:04,201 [23076] DEBUG LockStepDemo - SyncService OnNewSessionConnected e7957dd9-56cf-4005-8930-181776266229
+2024-07-10 11:48:04,203 [22544] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:57:30,036 [4748] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-10 11:57:30,119 [4748] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-10 11:57:30,190 [4748] DEBUG LockStepDemo - 创建连接 
+2024-07-10 11:57:30,806 [4748] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-10 11:57:30,807 [4748] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-10 11:57:30,807 [4748] DEBUG LockStepDemo - 数据库连接成功 用时687ms
+2024-07-10 11:57:30,835 [4748] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-10 11:57:35,872 [4748] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-10 11:57:35,872 [4748] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-10 11:57:35,889 [4748] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-10 11:57:35,889 [4748] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-10 11:57:35,893 [4748] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-10 11:57:37,854 [30944] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 11:57:37,855 [30944] DEBUG LockStepDemo - SyncService OnNewSessionConnected 48568a8c-f7bf-4a35-8151-1d6a8ca37c18
+2024-07-10 11:57:37,858 [18284] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 11:58:02,531 [31024] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-10 11:58:02,595 [31024] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-10 11:58:02,620 [31024] DEBUG LockStepDemo - 创建连接 
+2024-07-10 11:58:03,247 [31024] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-10 11:58:03,247 [31024] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-10 11:58:03,247 [31024] DEBUG LockStepDemo - 数据库连接成功 用时650ms
+2024-07-10 11:58:03,262 [31024] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-10 11:58:03,993 [31024] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-10 11:58:03,993 [31024] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-10 11:58:04,038 [31024] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-10 11:58:04,038 [31024] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-10 11:58:04,042 [31024] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-10 12:05:00,758 [30696] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 12:05:00,759 [30696] DEBUG LockStepDemo - SyncService OnNewSessionConnected 9a74508c-40d4-4f5c-8891-2fb3f9a9030b
+2024-07-10 12:05:00,761 [17984] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 12:05:09,819 [9028] DEBUG LockStepDemo - SyncService OnSessionClosed 9a74508c-40d4-4f5c-8891-2fb3f9a9030b
+2024-07-10 12:06:31,768 [30696] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 12:06:31,768 [30696] DEBUG LockStepDemo - SyncService OnNewSessionConnected 564a92d6-2588-469e-99f0-668649b50499
+2024-07-10 12:06:31,769 [20692] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 12:07:18,194 [17984] DEBUG LockStepDemo - SyncService OnSessionClosed 564a92d6-2588-469e-99f0-668649b50499
+2024-07-10 12:09:03,283 [28448] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 12:09:03,283 [28448] DEBUG LockStepDemo - SyncService OnNewSessionConnected b32bceb4-2b5e-4ade-903b-36a6cf5d8ec4
+2024-07-10 12:09:03,283 [17984] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 12:09:58,014 [17984] DEBUG LockStepDemo - SyncService OnSessionClosed b32bceb4-2b5e-4ade-903b-36a6cf5d8ec4
+2024-07-10 12:11:24,980 [7388] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-10 12:11:25,106 [7388] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-10 12:11:25,191 [7388] DEBUG LockStepDemo - 创建连接 
+2024-07-10 12:11:25,908 [7388] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-10 12:11:25,916 [7388] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-10 12:11:25,917 [7388] DEBUG LockStepDemo - 数据库连接成功 用时809ms
+2024-07-10 12:11:26,040 [7388] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-10 12:11:31,382 [7388] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-10 12:11:31,383 [7388] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-10 12:11:31,411 [7388] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-10 12:11:31,411 [7388] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-10 12:11:31,416 [7388] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-10 12:11:40,494 [30736] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 12:11:40,495 [30736] DEBUG LockStepDemo - SyncService OnNewSessionConnected b89ba22d-18e2-493a-8940-22a03cdc3968
+2024-07-10 12:11:40,499 [22016] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 12:11:50,740 [22016] DEBUG LockStepDemo - SyncService OnSessionClosed b89ba22d-18e2-493a-8940-22a03cdc3968
+2024-07-10 13:52:01,325 [18520] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-10 13:52:01,545 [18520] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-10 13:52:01,583 [18520] DEBUG LockStepDemo - 创建连接 
+2024-07-10 13:52:02,429 [18520] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-10 13:52:02,435 [18520] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-10 13:52:02,436 [18520] DEBUG LockStepDemo - 数据库连接成功 用时888ms
+2024-07-10 13:52:02,497 [18520] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-10 13:52:12,314 [18520] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-10 13:52:12,314 [18520] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-10 13:52:12,345 [18520] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-10 13:52:12,347 [18520] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-10 13:52:12,352 [18520] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-10 13:52:19,571 [27724] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 13:52:19,573 [27724] DEBUG LockStepDemo - SyncService OnNewSessionConnected 7cea3ef1-a9a4-426f-9959-085cf39bfc28
+2024-07-10 13:52:19,575 [25336] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 13:52:50,512 [25336] DEBUG LockStepDemo - SyncService OnSessionClosed 7cea3ef1-a9a4-426f-9959-085cf39bfc28
+2024-07-10 13:53:31,400 [27724] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 13:53:31,401 [27724] DEBUG LockStepDemo - SyncService OnNewSessionConnected ff9e8d2d-aa0e-4d32-8422-01c5d2527930
+2024-07-10 13:53:31,401 [25336] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 13:53:54,539 [25336] DEBUG LockStepDemo - SyncService OnSessionClosed ff9e8d2d-aa0e-4d32-8422-01c5d2527930
+2024-07-10 14:13:04,203 [28116] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 14:13:04,203 [28116] DEBUG LockStepDemo - SyncService OnNewSessionConnected 7a649d6e-3f83-4f53-b755-4ce87d384338
+2024-07-10 14:13:04,203 [25336] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 14:13:35,318 [25336] DEBUG LockStepDemo - SyncService OnSessionClosed 7a649d6e-3f83-4f53-b755-4ce87d384338
+2024-07-10 14:42:41,001 [2888] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 14:42:41,001 [2888] DEBUG LockStepDemo - SyncService OnNewSessionConnected d22af528-2b15-4f8c-a03f-595e4597dba0
+2024-07-10 14:42:41,001 [19820] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 14:43:13,617 [25336] DEBUG LockStepDemo - SyncService OnSessionClosed d22af528-2b15-4f8c-a03f-595e4597dba0
+2024-07-10 16:28:08,664 [29084] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-10 16:28:08,664 [29084] DEBUG LockStepDemo - SyncService OnNewSessionConnected a225e782-027c-40fb-aa8c-6a41b8260447
+2024-07-10 16:28:08,665 [25336] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-10 16:28:30,110 [25336] DEBUG LockStepDemo - SyncService OnSessionClosed a225e782-027c-40fb-aa8c-6a41b8260447

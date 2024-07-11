@@ -78,7 +78,6 @@ public class ApplicationManager : MonoBehaviour
 
 #if !UNITY_WEBGL
         UIManager.Init();                    //UIManager启动
-        //UIManager.CreateUIWindow<FightBehaveWindow>();
 #else
         UIManager.InitAsync();               //异步加载UIManager
 #endif

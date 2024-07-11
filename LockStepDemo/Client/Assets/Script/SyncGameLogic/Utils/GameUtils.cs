@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 
 
+/// <summary>
+/// 游戏指令
+/// </summary>
 public class GameUtils
 {
     public const string c_gameFinish =  "GameFinsih";

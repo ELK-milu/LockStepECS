@@ -122,7 +122,8 @@ public abstract class WorldBase
 
 	Stack<EntityBase> m_entitiesPool = new Stack<EntityBase>();  //TODO: 实体对象池
 
-	public ECSGroupManager group = null;
+	// 存储Component的组合
+	public ComponentGroupManager group = null;
 	public List<SystemBase> m_systemList = new List<SystemBase>();                 //世界里所有的System列表
 
 	public Dictionary<int, EntityBase> m_entityDict = new Dictionary<int, EntityBase>(); //世界里所有的entity集合
@@ -157,11 +158,11 @@ public abstract class WorldBase
 		}
 	}
 
-	bool m_isRecalc = false;
-	public bool IsRecalc
+	bool _mIsRecalculate = false;
+	public bool IsRecalculate
 	{
-		get { return m_isRecalc; }
-		set { m_isRecalc = value; }
+		get { return _mIsRecalculate; }
+		set { _mIsRecalculate = value; }
 	}
 
 	public List<RecordSystemBase> m_recordList = new List<RecordSystemBase>();           //世界里所有的RecordSystem列表
@@ -306,7 +307,7 @@ public abstract class WorldBase
 
 	void InitGroup()
 	{
-		group = new ECSGroupManager(this);
+		group = new ComponentGroupManager(this);
 		OnEntityComponentAdded += group.OnEntityComponentChange;
 		OnEntityComponentRemoved += group.OnEntityComponentChange;
 		//OnEntityComponentChange += (entity, compName, previousComponent, newComponent) =>
@@ -949,7 +950,7 @@ public abstract class WorldBase
 
 	void AddEntity(EntityBase entity)
 	{
-		if(IsRecalc)
+		if(IsRecalculate)
 		{
 			RecalcCreateEntity(entity);
 		}
@@ -1043,7 +1044,7 @@ public abstract class WorldBase
 
 	void RemoveEntity(EntityBase entity)
 	{
-		if(IsRecalc)
+		if(IsRecalculate)
 		{
 			RecalcDestroyEntity(entity);
 		}

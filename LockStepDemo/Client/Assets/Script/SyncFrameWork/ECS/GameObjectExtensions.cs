@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Linq;
+using UnityEngine;
 
 public static class GameObjectExtensions
 {
@@ -35,9 +37,17 @@ public static class GameObjectExtensions
 	/// <returns></returns>
 	public static ComponentBase[] AutoGetComponentBase (this GameObject obj)
 	{
-		// 获取所有组件
-		var components = obj.GetComponents<Component>();
-		ComponentBase[] comps = new ComponentBase[obj.GetComponents<Component>().Length];
-		return comps;
+		var monoBase = obj.GetComponent<MonoBase>();
+		Type[] types = monoBase.GetFilter();
+		// 确保所有类型都是 ComponentBase 的子类
+		var validTypes = types.Where(t => typeof(ComponentBase).IsAssignableFrom(t)).ToArray();
+		var components = validTypes
+			.Cast<ComponentBase>()
+			.ToArray();
+		for(int i = 0; i < components.Length; i++)
+		{
+			Debug.Log(components[i].GetType().Name);
+		}
+		return components;
 	}
 }

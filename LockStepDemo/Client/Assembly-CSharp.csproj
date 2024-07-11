@@ -41,7 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\SyncFrameWork\ECS\GameObjectExtensions.cs" />
+    <Compile Include="Assets\MySqlTest.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\Physics\Vector2d.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\System\FireSystem.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Core\LuaDLL.cs" />
@@ -80,7 +80,7 @@
     <Compile Include="Assets\Script\SyncFrameWork\Physics\Vector3d.cs" />
     <Compile Include="Assets\Script\Core\SDKManager\NullSDKInterfaceClass\NullLogSDKClass.cs" />
     <Compile Include="Assets\Script\Core\Network\Protocol\ProtocolNetworkService.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\ECS\ECSGroupManager.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\ECS\ComponentGroupManager.cs" />
     <Compile Include="Assets\Script\Core\ResourceLoad\MemoryManager.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\System\RankSystem.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\ECS\MomentSingletonComponent.cs" />
@@ -101,6 +101,7 @@
     <Compile Include="Assets\Script\SyncFrameWork\ECS\TupleBase.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\System\OperationSystem.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\Component\ServiceComponent.cs" />
+    <Compile Include="Assets\MoveMonoSystem.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\FastCollections\FastStack.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\ECS\MomentComponentBase.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\Component\CDComponent.cs" />
@@ -115,7 +116,7 @@
     <Compile Include="Assets\Script\Core\Input\Events\NetWork\InputNetworkEvent.cs" />
     <Compile Include="Assets\Script\Core\UI\Utils\LayerSort.cs" />
     <Compile Include="Assets\Script\DataClassGenerate\PlayerDataGenerate.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\ECS\ECSGroup.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\ECS\ComponentGroup.cs" />
     <Compile Include="Assets\Script\Core\UI\Utils\UITools.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\Reflect\ReflectTool.cs" />
     <Compile Include="Assets\Script\DataClassGenerate\SkillStatusDataGenerate.cs" />
@@ -132,6 +133,7 @@
     <Compile Include="Assets\Script\SyncGameLogic\Component\FlyObjectComponent.cs" />
     <Compile Include="Assets\Script\SyncClientLogic\System\PlayerAnimSystem.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\FastCollections\FastDictionary.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\ECS\GameObjectExtensions.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\Reflect\MiniJSON.cs" />
     <Compile Include="Assets\Script\Core\Input\Events\UI\InputUIOnEndDragEvent.cs" />
     <Compile Include="Assets\Script\Core\Data\DataTable.cs" />
@@ -146,6 +148,7 @@
     <Compile Include="Assets\Script\SyncGameLogic\System\GameSystem.cs" />
     <Compile Include="Assets\Script\Core\Input\Events\IInputOperationEventBase.cs" />
     <Compile Include="Assets\Script\UI\ResurgenceWindow.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\Utils\ClientTime.cs" />
     <Compile Include="Assets\Script\UI\OperationWindow.cs" />
     <Compile Include="Assets\Script\Core\Network\Protocol\ProtocolAttribute.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\ECS\Record\RecordComponent.cs" />
@@ -200,6 +203,7 @@
     <Compile Include="Assets\Script\Core\Lua\ToLua\Core\LuaMisc.cs" />
     <Compile Include="Assets\Script\Core\ResourceLoad\ResourceManager.cs" />
     <Compile Include="Assets\Script\SyncClientLogic\System\ResurgenceUISystem.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\GameWorldBase.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\Component\BuffComponent.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\Component\AIComponentBase.cs" />
     <Compile Include="Assets\Script\Core\SDKManager\NullSDKInterfaceClass\NullOtherSDKClass.cs" />
@@ -221,6 +225,7 @@
     <Compile Include="Assets\Script\Game\CreatMesh.cs" />
     <Compile Include="Assets\Script\ProtocolGenerate\ProtocolAnalysisService.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\ECS\ViewSystemBase.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\ECS\MonoComponent.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\Utils\statement.cs" />
     <Compile Include="Assets\Script\Core\Utils\ReflectionUtils.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\Component\TheirComponent.cs" />
@@ -274,6 +279,7 @@
     <Compile Include="Assets\Script\Core\Input\Events\UI\InputUIOnBeginDragEvent.cs" />
     <Compile Include="Assets\Script\Core\Develop\FPSCounter.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\Component\ViewComponent.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\ECS\MonoSystem.cs" />
     <Compile Include="Assets\Script\SyncClientLogic\Component\PlayerCameraComponent.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\System\ReconnectSystem.cs" />
     <Compile Include="Assets\Script\Core\Lua\ToLua\Core\LuaState.cs" />
@@ -350,9 +356,6 @@
     <Compile Include="Assets\Script\Core\UI\Model\UIBase.cs" />
     <Compile Include="Assets\Script\Core\Network\NetworkManager.cs" />
     <Compile Include="Assets\Script\Core\Network\Interface\INetworkInterface.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\GameWorldBase.cs" />
-    <Compile Include="Assets\MySqlTest.cs" />
-    <Compile Include="Assets\Script\SyncFrameWork\Utils\ClientTime.cs" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\commontypes.ko.txt" />
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -792,8 +795,8 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>E:\Unity\2021.3.34f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="SuperSocket.Common">
-      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\SuperSocket.Common.dll</HintPath>
+    <Reference Include="DemiLib">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="Debugger">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\Core\Lua\ToLua\Plugins\Debugger.dll</HintPath>
@@ -804,20 +807,11 @@
     <Reference Include="DOTween">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="SuperSocket.SocketEngine">
-      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\SuperSocket.SocketEngine.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="SuperSocket.SocketBase">
-      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\SuperSocket.SocketBase.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\Unity\2021.3.34f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

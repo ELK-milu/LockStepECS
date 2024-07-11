@@ -143,9 +143,9 @@ public class EntityViewWindow : EditorWindow
     /// <param name="world"></param>
     private void ShowGroupsGUI(WorldBase world)
     {
-       ECSGroupManager groupManager = world.group;
-        Dictionary<int, ECSGroup> AllGroupDic = groupManager.AllGroupDic;
-        List<ECSGroup> groups = new List<ECSGroup>(AllGroupDic.Values);
+       ComponentGroupManager groupManager = world.group;
+        Dictionary<int, ComponentGroup> AllGroupDic = groupManager.AllGroupDic;
+        List<ComponentGroup> groups = new List<ComponentGroup>(AllGroupDic.Values);
 
         List<string> names = new List<string>();
         foreach (var item in groups)
@@ -160,19 +160,19 @@ public class EntityViewWindow : EditorWindow
                     return;
                 if (selectInt1 >= groups.Count)
                     selectInt1 = groups.Count - 1;
-                ECSGroup ecsGroup = groups[selectInt1];
-                DrawECSGroup(ecsGroup,groupManager.GroupToEntityDic[ecsGroup]);
+                ComponentGroup componentGroup = groups[selectInt1];
+                DrawECSGroup(componentGroup,groupManager.GroupToEntityDic[componentGroup]);
             });
     }
     /// <summary>
     /// 绘制单个Group
     /// </summary>
-    /// <param name="ecsGroup"></param>
+    /// <param name="componentGroup"></param>
     /// <param name="entitys"></param>
-    private void DrawECSGroup(ECSGroup ecsGroup,List<EntityBase> entitys)
+    private void DrawECSGroup(ComponentGroup componentGroup,List<EntityBase> entitys)
     {
         GUILayout.Box("包含的组件名：");
-        foreach (var item in ecsGroup.Components)
+        foreach (var item in componentGroup.Components)
         {
             GUILayout.Box(item, "WarningOverlay", GUILayout.MaxWidth(Screen.width - 30));
         }

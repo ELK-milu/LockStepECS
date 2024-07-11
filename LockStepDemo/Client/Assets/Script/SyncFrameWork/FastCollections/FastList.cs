@@ -11,6 +11,7 @@ using System;
 
 namespace FastCollections
 {
+	[Serializable]
 	public class FastList<T> : FastEnumerable<T>, IEnumerable<T>
 	{
 		private const int DefaultCapacity = 8;

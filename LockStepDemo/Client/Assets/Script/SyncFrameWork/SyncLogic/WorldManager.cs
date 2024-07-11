@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class WorldManager
 {
+    // 主世界永远放在第一个
     static List<WorldBase> s_worldList = new List<WorldBase>();
 
     public static List<WorldBase> WorldList

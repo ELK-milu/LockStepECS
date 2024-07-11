@@ -59,7 +59,7 @@ public class NetworkManager
         s_network.m_socketService.Init();
 
         s_network.Init();
-        s_network.m_messageCallBack = ReceviceMeaasge;
+        s_network.m_messageCallBack = ReceiveMessage;
 
         ApplicationManager.s_OnApplicationUpdate += Update;
         ApplicationManager.s_OnApplicationQuit += DisConnect;
@@ -85,7 +85,7 @@ public class NetworkManager
         s_network.m_socketService.Init();
 
         s_network.Init();
-        s_network.m_messageCallBack = ReceviceMeaasge;
+        s_network.m_messageCallBack = ReceiveMessage;
 
         ApplicationManager.s_OnApplicationUpdate += Update;
         ApplicationManager.s_OnApplicationQuit += DisConnect;
@@ -158,7 +158,7 @@ public class NetworkManager
 
     static int msgCount = 0;
 
-    static void ReceviceMeaasge(NetWorkMessage message)
+    static void ReceiveMessage(NetWorkMessage message)
     {
         if(message.m_MessageType != null)
         {
@@ -167,7 +167,7 @@ public class NetworkManager
         }
         else
         {
-            Debug.LogError("ReceviceMeaasge m_MessageType is null !");
+            Debug.LogError("ReceiveMessage m_MessageType is null !");
         }
     }
 

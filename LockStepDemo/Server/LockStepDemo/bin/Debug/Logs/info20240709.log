@@ -1,0 +1,16 @@
+﻿2017-11-14 16:08:21,661 [35596] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2017-11-14 16:46:37,800 [44920] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-09 22:41:39,908 [23832] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-09 22:41:42,460 [21472] INFO  LockStepDemo - Session: d963b354-e77a-4352-aeb7-162ca8908672/127.0.0.1:7781
+A new session connected!
+2024-07-09 22:43:24,931 [24544] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-09 22:43:26,443 [24544] INFO  LockStepDemo - The server instance LockStepDemo has been stopped!
+2024-07-09 23:02:35,580 [25788] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-09 23:02:46,058 [29688] INFO  LockStepDemo - Session: 29054c19-4309-466b-8414-4badbfc9e1e9/127.0.0.1:8129
+A new session connected!
+2024-07-09 23:03:11,046 [29600] INFO  LockStepDemo - Session: 29054c19-4309-466b-8414-4badbfc9e1e9/127.0.0.1:8129
+This session was closed for ClientClosing!
+2024-07-09 23:03:26,665 [18872] INFO  LockStepDemo - Session: 56d0aa3f-9f3a-482a-bad7-1646182c48ee/127.0.0.1:8138
+A new session connected!
+2024-07-09 23:05:45,036 [29600] INFO  LockStepDemo - Session: 56d0aa3f-9f3a-482a-bad7-1646182c48ee/127.0.0.1:8138
+This session was closed for ClientClosing!

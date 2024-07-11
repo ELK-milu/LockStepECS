@@ -429,7 +429,7 @@
 //        //目标帧之后的历史记录作废
 //        m_world.ClearAfter(frameCount);
 
-//        m_world.IsRecalc = true;
+//        m_world.IsRecalculateIsRecalculate = true;
 //        isAllMessage = true;
 
 //        for (int i = frameCount + 1; i <= aimCount; i++)
@@ -493,7 +493,7 @@
 
 //        csc.ClearFrame = frameCount - 1;
 //        m_world.IsCertainty = false;
-//        m_world.IsRecalc = false;
+//        m_world.IsRecalculateIsRecalculate = false;
 //    }
 
 //    public void CheckCertaintyFrame(int frame)

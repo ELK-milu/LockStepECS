@@ -1,76 +1,17 @@
-﻿2024-07-10 10:50:03,499 [18480] INFO  LockStepDemo - The server instance LockStepDemo has been started!
-2024-07-10 10:51:53,629 [28100] INFO  LockStepDemo - Session: 773c806f-3da9-4fa9-b6ec-3195d5f51ebd/127.0.0.1:12185
+﻿2024-07-11 10:32:32,719 [38304] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-11 10:36:34,825 [11728] INFO  LockStepDemo - Session: a16bd931-0894-421f-b3af-178e8f528a44/127.0.0.1:7676
 A new session connected!
-2024-07-10 10:52:12,662 [27132] INFO  LockStepDemo - Session: 773c806f-3da9-4fa9-b6ec-3195d5f51ebd/127.0.0.1:12185
+2024-07-11 10:37:14,733 [28548] INFO  LockStepDemo - Session: a16bd931-0894-421f-b3af-178e8f528a44/127.0.0.1:7676
 This session was closed for ClientClosing!
-2024-07-10 11:04:30,760 [26852] INFO  LockStepDemo - Session: 04dea808-b4f6-4bad-8644-9191d640fbb5/127.0.0.1:12900
+2024-07-11 10:37:46,305 [39356] INFO  LockStepDemo - Session: 9004bef9-63cf-4e84-84ed-03c9e251708e/127.0.0.1:7755
 A new session connected!
-2024-07-10 11:04:55,258 [27132] INFO  LockStepDemo - Session: 04dea808-b4f6-4bad-8644-9191d640fbb5/127.0.0.1:12900
+2024-07-11 10:39:52,037 [28548] INFO  LockStepDemo - Session: 9004bef9-63cf-4e84-84ed-03c9e251708e/127.0.0.1:7755
 This session was closed for ClientClosing!
-2024-07-10 11:10:40,681 [19280] INFO  LockStepDemo - Session: 0135ba89-be21-4530-9a7d-42677bfd2084/127.0.0.1:13188
+2024-07-11 10:42:29,287 [35236] INFO  LockStepDemo - Session: 3d25fb31-e378-4551-ad09-9a2d7cdf4322/127.0.0.1:8214
 A new session connected!
-2024-07-10 11:11:01,833 [27132] INFO  LockStepDemo - Session: 0135ba89-be21-4530-9a7d-42677bfd2084/127.0.0.1:13188
+2024-07-11 10:42:33,539 [34852] INFO  LockStepDemo - Session: 3d25fb31-e378-4551-ad09-9a2d7cdf4322/127.0.0.1:8214
 This session was closed for ClientClosing!
-2024-07-10 11:22:58,245 [29340] INFO  LockStepDemo - Session: 24c5a759-b647-4cbc-bb2b-5942e639a550/127.0.0.1:13879
+2024-07-11 10:42:58,056 [35236] INFO  LockStepDemo - Session: 5595dd82-dbc6-41ee-ae37-3f0f624c61d8/127.0.0.1:8245
 A new session connected!
-2024-07-10 11:22:58,246 [24868] INFO  LockStepDemo - Session: 24c5a759-b647-4cbc-bb2b-5942e639a550/127.0.0.1:13879
-This session was closed for ClientClosing!
-2024-07-10 11:22:59,531 [29340] INFO  LockStepDemo - Session: 16615670-6e06-49e8-8e82-4f9c6b7616be/127.0.0.1:13905
-A new session connected!
-2024-07-10 11:24:15,867 [19360] INFO  LockStepDemo - Session: 16615670-6e06-49e8-8e82-4f9c6b7616be/127.0.0.1:13905
-This session was closed for ClientClosing!
-2024-07-10 11:25:05,195 [27764] INFO  LockStepDemo - Session: d40bbd3b-35d8-4254-939b-d1e7f0d3a9f0/127.0.0.1:13995
-A new session connected!
-2024-07-10 11:26:49,510 [27132] INFO  LockStepDemo - Session: d40bbd3b-35d8-4254-939b-d1e7f0d3a9f0/127.0.0.1:13995
-This session was closed for ClientClosing!
-2024-07-10 11:33:48,396 [31976] INFO  LockStepDemo - Session: a523df55-8a82-450f-9359-ccb81166d04f/127.0.0.1:14551
-A new session connected!
-2024-07-10 11:41:04,794 [27132] INFO  LockStepDemo - Session: a523df55-8a82-450f-9359-ccb81166d04f/127.0.0.1:14551
-This session was closed for ClientClosing!
-2024-07-10 11:41:21,551 [26608] INFO  LockStepDemo - Session: 6ce6c0b4-b4c0-4845-bbf5-59b0908d5c93/127.0.0.1:1156
-A new session connected!
-2024-07-10 11:47:53,539 [27588] INFO  LockStepDemo - The server instance LockStepDemo has been started!
-2024-07-10 11:48:04,200 [23076] INFO  LockStepDemo - Session: e7957dd9-56cf-4005-8930-181776266229/127.0.0.1:1618
-A new session connected!
-2024-07-10 11:57:35,890 [4748] INFO  LockStepDemo - The server instance LockStepDemo has been started!
-2024-07-10 11:57:37,855 [30944] INFO  LockStepDemo - Session: 48568a8c-f7bf-4a35-8151-1d6a8ca37c18/127.0.0.1:2229
-A new session connected!
-2024-07-10 11:58:04,039 [31024] INFO  LockStepDemo - The server instance LockStepDemo has been started!
-2024-07-10 12:05:00,758 [30696] INFO  LockStepDemo - Session: 9a74508c-40d4-4f5c-8891-2fb3f9a9030b/127.0.0.1:2678
-A new session connected!
-2024-07-10 12:05:09,819 [9028] INFO  LockStepDemo - Session: 9a74508c-40d4-4f5c-8891-2fb3f9a9030b/127.0.0.1:2678
-This session was closed for ClientClosing!
-2024-07-10 12:06:31,768 [30696] INFO  LockStepDemo - Session: 564a92d6-2588-469e-99f0-668649b50499/127.0.0.1:2774
-A new session connected!
-2024-07-10 12:07:18,194 [17984] INFO  LockStepDemo - Session: 564a92d6-2588-469e-99f0-668649b50499/127.0.0.1:2774
-This session was closed for ClientClosing!
-2024-07-10 12:09:03,283 [28448] INFO  LockStepDemo - Session: b32bceb4-2b5e-4ade-903b-36a6cf5d8ec4/127.0.0.1:2908
-A new session connected!
-2024-07-10 12:09:58,014 [17984] INFO  LockStepDemo - Session: b32bceb4-2b5e-4ade-903b-36a6cf5d8ec4/127.0.0.1:2908
-This session was closed for ClientClosing!
-2024-07-10 12:11:31,411 [7388] INFO  LockStepDemo - The server instance LockStepDemo has been started!
-2024-07-10 12:11:40,494 [30736] INFO  LockStepDemo - Session: b89ba22d-18e2-493a-8940-22a03cdc3968/127.0.0.1:3084
-A new session connected!
-2024-07-10 12:11:50,739 [22016] INFO  LockStepDemo - Session: b89ba22d-18e2-493a-8940-22a03cdc3968/127.0.0.1:3084
-This session was closed for ClientClosing!
-2024-07-10 13:52:12,348 [18520] INFO  LockStepDemo - The server instance LockStepDemo has been started!
-2024-07-10 13:52:19,572 [27724] INFO  LockStepDemo - Session: 7cea3ef1-a9a4-426f-9959-085cf39bfc28/127.0.0.1:10320
-A new session connected!
-2024-07-10 13:52:50,511 [25336] INFO  LockStepDemo - Session: 7cea3ef1-a9a4-426f-9959-085cf39bfc28/127.0.0.1:10320
-This session was closed for ClientClosing!
-2024-07-10 13:53:31,400 [27724] INFO  LockStepDemo - Session: ff9e8d2d-aa0e-4d32-8422-01c5d2527930/127.0.0.1:10363
-A new session connected!
-2024-07-10 13:53:54,539 [25336] INFO  LockStepDemo - Session: ff9e8d2d-aa0e-4d32-8422-01c5d2527930/127.0.0.1:10363
-This session was closed for ClientClosing!
-2024-07-10 14:13:04,203 [28116] INFO  LockStepDemo - Session: 7a649d6e-3f83-4f53-b755-4ce87d384338/127.0.0.1:11529
-A new session connected!
-2024-07-10 14:13:35,318 [25336] INFO  LockStepDemo - Session: 7a649d6e-3f83-4f53-b755-4ce87d384338/127.0.0.1:11529
-This session was closed for ClientClosing!
-2024-07-10 14:42:41,001 [2888] INFO  LockStepDemo - Session: d22af528-2b15-4f8c-a03f-595e4597dba0/127.0.0.1:12970
-A new session connected!
-2024-07-10 14:43:13,617 [25336] INFO  LockStepDemo - Session: d22af528-2b15-4f8c-a03f-595e4597dba0/127.0.0.1:12970
-This session was closed for ClientClosing!
-2024-07-10 16:28:08,664 [29084] INFO  LockStepDemo - Session: a225e782-027c-40fb-aa8c-6a41b8260447/127.0.0.1:4552
-A new session connected!
-2024-07-10 16:28:30,093 [25336] INFO  LockStepDemo - Session: a225e782-027c-40fb-aa8c-6a41b8260447/127.0.0.1:4552
+2024-07-11 11:13:12,798 [28548] INFO  LockStepDemo - Session: 5595dd82-dbc6-41ee-ae37-3f0f624c61d8/127.0.0.1:8245
 This session was closed for ClientClosing!

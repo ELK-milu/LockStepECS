@@ -1,0 +1,731 @@
+﻿2017-11-14 16:08:18,175 [35596] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2017-11-14 16:08:18,284 [35596] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+2017-11-14 16:08:18,285 [35596] DEBUG LockStepDemo - 开始连接数据库~~~
+2017-11-14 16:08:18,312 [35596] DEBUG LockStepDemo - 创建连接 
+2017-11-14 16:08:20,896 [35596] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2017-11-14 16:08:20,903 [35596] DEBUG LockStepDemo - 数据库连接成功 用时2611ms
+2017-11-14 16:08:20,959 [35596] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2017-11-14 16:08:21,633 [35596] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-11-14 16:08:21,634 [35596] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-11-14 16:08:21,660 [35596] DEBUG LockStepDemo - Listener (0.0.0.0:7500) was started
+2017-11-14 16:08:21,660 [35596] DEBUG LockStepDemo - SyncService OnStarted
+2017-11-14 16:08:21,665 [35596] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2017-11-14 16:46:32,726 [44920] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2017-11-14 16:46:32,809 [44920] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+2017-11-14 16:46:32,811 [44920] DEBUG LockStepDemo - 开始连接数据库~~~
+2017-11-14 16:46:33,022 [44920] DEBUG LockStepDemo - 创建连接 
+2017-11-14 16:46:37,028 [44920] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2017-11-14 16:46:37,029 [44920] DEBUG LockStepDemo - 数据库连接成功 用时4218ms
+2017-11-14 16:46:37,051 [44920] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2017-11-14 16:46:37,774 [44920] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2017-11-14 16:46:37,774 [44920] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2017-11-14 16:46:37,799 [44920] DEBUG LockStepDemo - Listener (0.0.0.0:7500) was started
+2017-11-14 16:46:37,799 [44920] DEBUG LockStepDemo - SyncService OnStarted
+2017-11-14 16:46:37,805 [44920] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-09 21:51:36,959 [21164] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:51:37,042 [21164] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:51:37,159 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,493 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,520 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,570 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,607 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,637 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,666 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,699 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,738 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,773 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,806 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,846 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,882 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,913 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,948 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:37,984 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,022 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,052 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,085 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,122 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,151 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,182 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,213 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,245 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,278 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,308 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,338 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,371 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,406 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,437 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,473 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,506 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,541 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,577 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,615 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,649 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,692 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,728 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,769 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,813 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,853 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,893 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,929 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:38,967 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,005 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,043 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,080 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,120 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,158 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,199 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,239 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,280 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,323 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,372 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,423 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,470 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,523 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,574 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,628 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,677 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,728 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,773 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,830 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,886 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,937 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:39,994 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:40,079 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,561 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,601 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,641 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,687 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,728 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,772 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,814 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,855 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,900 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,944 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:49,986 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:50,029 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:50,076 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:50,125 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:50,170 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:50,215 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:50,260 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,155 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,200 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,252 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,298 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,343 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,390 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,436 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,489 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,535 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,583 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,634 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:51:52,684 [21164] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,432 [976] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:52:43,491 [976] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:52:43,512 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,675 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,727 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,767 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,801 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,836 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,874 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,916 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:43,958 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,237 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,282 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,321 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,361 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,402 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,443 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,484 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,531 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,570 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:44,614 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,797 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,825 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,853 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,883 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,922 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,957 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:50,995 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,027 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,058 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,090 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,120 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,157 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,194 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,229 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,268 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,301 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,333 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,369 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,409 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,446 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,488 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,530 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,569 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,606 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,643 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,684 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,723 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,768 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,802 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,841 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,878 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,920 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:51,960 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,003 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,042 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,082 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,121 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,165 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,209 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,253 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,296 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,337 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,376 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,420 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,473 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,522 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,573 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,618 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,667 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,711 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,756 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,800 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,850 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,898 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,942 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:52,992 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,038 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,085 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,136 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,187 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,246 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,302 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,348 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,392 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,438 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,483 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,540 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,590 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,637 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,688 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,742 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,789 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,836 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,882 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,936 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:53,988 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,033 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,072 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,115 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,158 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,202 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,250 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,291 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,332 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,380 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,428 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,476 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,517 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,559 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,601 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,645 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,692 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,735 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,779 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,832 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,875 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,921 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:54,965 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,013 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,061 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,109 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,160 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,207 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,259 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,305 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,349 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,394 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,445 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,491 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,536 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,584 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,630 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,681 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,728 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,773 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,819 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,868 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,920 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:55,982 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:56,030 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:56,078 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:56,128 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:56,178 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:52:56,229 [976] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:27,733 [18156] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:54:27,817 [18156] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:54:27,855 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,054 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,108 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,164 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,233 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,356 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,387 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,429 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,464 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,494 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,539 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,587 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,635 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,665 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,699 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,729 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,762 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,862 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,905 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:28,973 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,021 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,048 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,084 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,120 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,144 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,174 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,222 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,269 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,323 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,361 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,403 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,464 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,520 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,571 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,617 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,660 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,703 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,743 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,797 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,836 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,907 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,946 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:29,983 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,051 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,108 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,148 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,185 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,218 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,252 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,288 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,321 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,356 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,394 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,436 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,475 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,511 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,550 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,595 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,634 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,676 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,712 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,747 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:30,781 [18156] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:54:45,730 [32] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:54:45,810 [32] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:55:04,772 [2776] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:55:04,856 [2776] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:55:04,881 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,036 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,063 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,089 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,115 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,141 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,173 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,205 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,234 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,276 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,353 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,394 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,434 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,487 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,522 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,562 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,613 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,649 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,701 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,736 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,770 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,816 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,862 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,895 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,929 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:05,964 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:06,002 [2776] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:15,420 [11092] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:55:15,481 [11092] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:55:26,286 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,404 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,428 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,453 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,473 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,495 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,521 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,547 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,570 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,596 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,620 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,643 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,668 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,692 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,719 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,748 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,776 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,804 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,830 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,857 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,883 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,910 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,937 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,970 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:26,997 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,022 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,050 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,078 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,109 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,141 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,174 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,206 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,235 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,265 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,297 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,346 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,384 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,417 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,452 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,489 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,524 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,555 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,589 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,621 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,654 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,687 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,720 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,753 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,790 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,825 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,859 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,894 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,927 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:27,962 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,004 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,047 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,084 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,121 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,157 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,195 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,237 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,272 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,308 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,365 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,449 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,505 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,543 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,582 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,625 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,668 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,706 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,748 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,785 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,822 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,867 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,909 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,952 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:28,992 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,032 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,077 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,122 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,166 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,209 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,252 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,305 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,353 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,396 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,441 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,487 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,542 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,592 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,636 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,683 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,737 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,784 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,829 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,874 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,917 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:29,966 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,015 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,063 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,112 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,158 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,196 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,234 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,272 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,311 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,351 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,391 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,432 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,474 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,515 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,556 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,599 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,641 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,683 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,728 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,771 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,814 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,861 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,905 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,950 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:30,992 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,039 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,082 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,124 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,167 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,213 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,259 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,303 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,345 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,389 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,433 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,479 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,522 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,566 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,610 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,661 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,705 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,751 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:31,796 [11092] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:55:42,207 [8256] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:55:42,273 [8256] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:56:35,614 [8256] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:57:38,217 [15716] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:57:38,295 [15716] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 21:57:45,729 [15716] DEBUG LockStepDemo - 创建连接 
+2024-07-09 21:59:57,147 [21980] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 21:59:57,196 [21980] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:00:46,414 [23964] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:00:46,479 [23964] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:03:14,051 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,177 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,201 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,234 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,262 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,289 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,320 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,351 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,377 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,406 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,432 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,458 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,486 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,519 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,550 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,582 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,613 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,645 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,675 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,708 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,739 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,769 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,798 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,826 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,860 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,889 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,923 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:14,955 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,000 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,044 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,078 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,112 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,150 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,186 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,223 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,261 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,294 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,330 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,367 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,404 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,438 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,474 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,508 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,542 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,580 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,616 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,654 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,690 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,731 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,776 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,815 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,853 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,896 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,934 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:15,972 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,017 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,056 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,094 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,133 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,172 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,215 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,258 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,299 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,338 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,385 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,435 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,481 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,522 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,563 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,606 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,651 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,695 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,737 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,778 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,825 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,873 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,916 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:16,964 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,007 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,052 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,098 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,144 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,187 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,236 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,290 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,346 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,394 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,448 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,498 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,549 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,597 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,645 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,690 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,752 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,809 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,865 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,919 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:17,964 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,006 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,046 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,085 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,124 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,169 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,211 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,253 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,296 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,339 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:18,383 [23964] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:03:27,768 [20276] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:03:27,835 [20276] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:04:01,523 [1616] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:04:01,607 [1616] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:05:04,589 [20896] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:05:04,649 [20896] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:13:56,458 [23168] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:13:56,551 [23168] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:34:15,680 [11488] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:34:15,783 [11488] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:40:35,727 [21372] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:40:35,815 [21372] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:41:08,572 [15168] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:41:08,637 [15168] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:41:33,280 [23832] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:41:33,356 [23832] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:41:33,392 [23832] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:41:34,126 [23832] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-09 22:41:34,126 [23832] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-09 22:41:34,126 [23832] DEBUG LockStepDemo - 数据库连接成功 用时768ms
+2024-07-09 22:41:34,150 [23832] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-09 22:41:39,871 [23832] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-09 22:41:39,871 [23832] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-09 22:41:39,907 [23832] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-09 22:41:39,907 [23832] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-09 22:41:39,910 [23832] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-09 22:41:42,459 [21472] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-09 22:41:42,460 [21472] DEBUG LockStepDemo - SyncService OnNewSessionConnected d963b354-e77a-4352-aeb7-162ca8908672
+2024-07-09 22:41:42,463 [23172] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-09 22:43:03,537 [26124] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:43:03,648 [26124] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:43:21,951 [24544] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 22:43:22,099 [24544] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 22:43:22,165 [24544] DEBUG LockStepDemo - 创建连接 
+2024-07-09 22:43:24,179 [24544] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-09 22:43:24,180 [24544] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-09 22:43:24,180 [24544] DEBUG LockStepDemo - 数据库连接成功 用时2079ms
+2024-07-09 22:43:24,198 [24544] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-09 22:43:24,909 [24544] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-09 22:43:24,909 [24544] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-09 22:43:24,930 [24544] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-09 22:43:24,931 [24544] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-09 22:43:24,936 [24544] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-09 22:43:26,443 [24544] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was stoppped
+2024-07-09 22:43:26,443 [24544] DEBUG DefaultBootstrap - The PerformanceMonitor has been stoppped!
+2024-07-09 23:02:29,659 [25788] DEBUG DefaultBootstrap - The server instance LockStepDemo has been created!
+2024-07-09 23:02:29,725 [25788] DEBUG LockStepDemo - SyncService Setup Mode: Tcp
+updateInterval 100
+isDebug False
+2024-07-09 23:02:29,753 [25788] DEBUG LockStepDemo - 创建连接 
+2024-07-09 23:02:30,403 [25788] DEBUG LockStepDemo - 连接成功 useCount 1 size 5
+2024-07-09 23:02:30,403 [25788] DEBUG LockStepDemo - 开始连接数据库~~~ localhost
+2024-07-09 23:02:30,404 [25788] DEBUG LockStepDemo - 数据库连接成功 用时678ms
+2024-07-09 23:02:30,423 [25788] DEBUG DefaultBootstrap - The server instance LockStepDemo has been initialized!
+2024-07-09 23:02:35,557 [25788] DEBUG DefaultBootstrap - The PerformanceMonitor has been initialized!
+2024-07-09 23:02:35,557 [25788] DEBUG DefaultBootstrap - The Bootstrap has been initialized!
+2024-07-09 23:02:35,579 [25788] DEBUG LockStepDemo - Listener (0.0.0.0:2012) was started
+2024-07-09 23:02:35,580 [25788] DEBUG LockStepDemo - SyncService OnStarted
+2024-07-09 23:02:35,585 [25788] DEBUG DefaultBootstrap - The PerformanceMonitor has been started!
+2024-07-09 23:02:46,057 [29688] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-09 23:02:46,059 [29688] DEBUG LockStepDemo - SyncService OnNewSessionConnected 29054c19-4309-466b-8414-4badbfc9e1e9
+2024-07-09 23:02:46,061 [29600] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-09 23:03:11,053 [29600] DEBUG LockStepDemo - SyncService OnSessionClosed 29054c19-4309-466b-8414-4badbfc9e1e9
+2024-07-09 23:03:26,665 [18872] DEBUG LockStepDemo - SyncService RegisterSession
+2024-07-09 23:03:26,665 [18872] DEBUG LockStepDemo - SyncService OnNewSessionConnected 56d0aa3f-9f3a-482a-bad7-1646182c48ee
+2024-07-09 23:03:26,665 [29600] DEBUG LockStepDemo - OnSessionStarted 
+2024-07-09 23:05:45,036 [29600] DEBUG LockStepDemo - SyncService OnSessionClosed 56d0aa3f-9f3a-482a-bad7-1646182c48ee

@@ -1,3 +1,23 @@
+# ECS
+
+ApplicationManager，下述所有生命周期真正的持有者，下述的其他类通过将生命周期函数注册到它的事件中从而进行函数调用。继承了MonoBehaviour的类，控制着程序的生命周期。同时也是服务端和客户端交互的第一道关口。
+
+SystemBase持有WorldBase，它是逻辑交互的核心，拥有生命周期，大部分的逻辑处理都应该在它的子类中定义，并且提供操控WorldBase中的EntityBase和ComponentBase的方法。
+
+WorldBase持有EntityBase和SystemBase，它是二者交互的桥梁，作为全局逻辑的处理者而存在。SystemBase中定义的生命周期函数在WorldBase中执行，也可进行对应实体和System的事件派发。通过接受消息后传递命令来控制SystemBase的逻辑处理。
+
+ComponentGroupManager管理所有实体以及它们拥有的ComponentGroup组件组合。实现通过实体访问组件或者通过特定组合获取实体（直接使用SystemBase的组合来获取的就是对应System下的实体）
+
+Entity是实体，或者说是组件的容器，持有World和一系列ComponentBase，与传统的开发模式不同，Entity并不是GameObject，但是在ECS中是将其作为GameObject使用的。将它作为GameObject使用的方式是持有PerfabComponent来使用，同样可以访问其他组件来进行其他的设置。它是数据的完全抽象。
+
+ComponentBase持有Entity，纯数据集合（包含一些基本的功能函数）。
+
+在Unity编辑器中将GameObject设置为实体的方法：创建GameObject物体并挂载继承了MonoSystem<T>的脚本，该脚本会在启用时自动创建实体联系。设置其持有的Component（之所以不持有Component，是因为Component是纯数据的，System可以有生命周期）（默认不需要TransfromComponent）
+
+UI部分不需要实体联系
+
+使用代码生成游戏对象的方式是将其打入AB包，然后根据名称来进行调用GameObjectManager.CreateGameObject()方法
+
 # 层级关系
 
 ApplicationManager是应用入口做各类Manager模块的初始化
@@ -8,7 +28,7 @@ GlobalLogicManager管理全局逻辑，用于全局执行的DDOL的代码部分
 SystemBase 引用 WorldBase
 WorldManager管理WorldBase，管理所有世界类
 
-GameObjectMananger 创建物体
+GameObjectManager 创建物体
 
 ## 关键类
 

@@ -118,12 +118,12 @@ public static class ResourceManager
         }
     }
 
-    //public static T GetResource<T>(string path)
-    //{
-    //    T resouce = new T();
+    public static T GetResource<T>(string path) where T : new()
+    {
+        T resouce = new T();
 
-    //    return resouce;
-    //}
+        return resouce;
+    }
 }
 
 public enum ResLoadLocation

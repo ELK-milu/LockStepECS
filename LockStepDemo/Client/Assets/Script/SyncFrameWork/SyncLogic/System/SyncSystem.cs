@@ -445,7 +445,7 @@ public class SyncSystem<T> : ViewSystemBase where T : PlayerCommandBase, new()
         //目标帧之后的历史记录作废
         m_world.ClearAfter(frameCount);
 
-        m_world.IsRecalc = true;
+        m_world.IsRecalculate = true;
         isAllMessage = true;
 
         for (int i = frameCount + 1; i <= aimCount; i++)
@@ -509,7 +509,7 @@ public class SyncSystem<T> : ViewSystemBase where T : PlayerCommandBase, new()
 
         csc.ClearFrame = frameCount - 1;
         m_world.IsCertainty = false;
-        m_world.IsRecalc = false;
+        m_world.IsRecalculate = false;
     }
 
     public void CheckCertaintyFrame(int frame)

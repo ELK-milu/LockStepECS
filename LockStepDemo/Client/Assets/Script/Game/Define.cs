@@ -16,6 +16,10 @@ public class Define : MonoBehaviour {
 	}
 }
 
+/// <summary>
+/// 定位所属的位置
+/// </summary>
+[Serializable]
 public class CharacterHardPoint
 {
     public Transform m_head;
