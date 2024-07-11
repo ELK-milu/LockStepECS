@@ -211,7 +211,7 @@ message m_playerloginmsg_c
 message m_playerloginmsg_s
 {
 	required string playerid = 1;
-	required string nickname = 2;
+	required string password = 2;
 }
 
 message m_playermatchmsg_c

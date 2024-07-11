@@ -25,7 +25,7 @@ public class LoginService : ServiceBase
         }
 
         //保存玩家数据
-        //SavePlayerData(session.player);
+        SavePlayerData(session.player);
 
         //玩家退出登陆
         m_service.OnPlayerLogout(session.player);
@@ -70,31 +70,30 @@ public class LoginService : ServiceBase
             Debug.Log(""+ session.player.playerID +" 已经登录，不需要重复登录！ ");
         }
 
-        //string clauseContent = "ID ='" + e.playerID + "'";
-        //var result = DataBaseService.database.Query(c_playerTableName,null, clauseContent, null,null,null,null);
+        string clauseContent = "ID ='" + e.playerID + "'";
+        var result = DataBaseService.database.Query(c_playerTableName, null, clauseContent, null, null, null, null);
 
-        //if(result.MoveToNext())
-        //{
-        //    Debug.Log("查询到记录！ ");
+        if (result.MoveToNext())
+        {
+            Debug.Log("查询到记录！ ");
 
-        //    session.player = GetOldPlayer(result);
+            session.player = GetOldPlayer(result);
 
-        //    result.Close();
-        //}
-        //else
-        //{
-            //result.Close();
-            //Debug.Log("未查询到记录！");
+            result.Close();
+        }
+        else
+        {
+            result.Close();
+            Debug.Log("未查询到记录！");
 
-        session.player = GetNewPlayer();
-        Dictionary<string, string> value = new Dictionary<string, string>();
-        value.Add("ID", e.playerID);
-
-            //DataBaseService.database.Insert(c_playerTableName, null, value);
-        //}
+            session.player = GetNewPlayer();
+            Dictionary<string, string> value = new Dictionary<string, string>();
+            value.Add("ID", e.playerID);
+            DataBaseService.database.Insert(c_playerTableName, null, value);
+        }
 
         session.player.playerID = e.playerID;
-        session.player.nickName = e.nickName;
+        session.player.passWord = e.passWord;
         session.player.session = session;
 
         PlayerLoginMsg_c msg = new PlayerLoginMsg_c();
@@ -105,7 +104,7 @@ public class LoginService : ServiceBase
         msg.diamond      = session.player.Diamond;
         msg.coin         = session.player.Coin;
         ProtocolAnalysisService.SendMsg(session,msg);
-
+        SavePlayerData(session.player);
         //派发玩家登陆事件
         m_service.OnPlayerLogin(session.player);
     }
@@ -116,7 +115,7 @@ public class LoginService : ServiceBase
 
         player.characterID  = data.GetString("CharacterID");
         player.OwnCharacter = StringToList(data.GetString("OwnCharacter"));
-        player.nickName     = data.GetString("NickName");
+        player.passWord     = data.GetString("PassWord");
 
         player.OwnCharacter = new List<string>() { "1" };
 
@@ -142,7 +141,7 @@ public class LoginService : ServiceBase
 
         Dictionary<string, string> value = new Dictionary<string, string>();
         value.Add("ID", player.playerID);
-        value.Add("NickName", player.nickName);
+        value.Add("PassWord", player.passWord);
         value.Add("CharacterID", player.characterID);
         value.Add("OwnCharacter", ToSaveString(player.OwnCharacter));
 

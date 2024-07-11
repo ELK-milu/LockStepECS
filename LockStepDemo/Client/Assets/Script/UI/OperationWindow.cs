@@ -100,7 +100,7 @@ public class OperationWindow : UIWindowBase
         for (int i = 0; i < rankList.Count; i++)
         {
             UIBase item = CreateItem(c_itemName, "Layout");
-            item.SetText("Text", rankList[i].nickName + "  " + rankList[i].score);
+            item.SetText("Text", rankList[i].passWord + "  " + rankList[i].score);
             m_rankList.Add(item);
 
             //Debug.Log("m_rankList.Add(item) " + item, item);

@@ -25,7 +25,7 @@ public class InitSystemBase : SystemBase
 
             //将角色ID传入游戏
             pc.characterID = cc.m_player.characterID;
-            pc.nickName = cc.m_player.nickName;
+            pc.passWord = cc.m_player.passWord;
 
             OnPlayerJoin(entity);
         }

@@ -39,7 +39,7 @@ public class InitSystem : SystemBase
             playerComp = new PlayerComponent();
 
             playerComp.characterID = "1";
-            playerComp.nickName = "Test model";
+            playerComp.passWord = "Test model";
 
             ElementData e1 = new ElementData();
             e1.id = 100;

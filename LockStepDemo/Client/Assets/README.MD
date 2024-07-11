@@ -16,7 +16,7 @@ ComponentBase持有Entity，纯数据集合（包含一些基本的数据处理�
 
 UI部分不需要实体联系
 
-使用代码生成游戏对象的方式是将其打入AB包，然后根据名称来进行调用GameObjectManager.CreateGameObject()方法
+使用代码生成游戏对象的方式是将其打入AB包或者Resource/Perfabs/文件夹，然后根据名称来调用GameObjectManager.CreateGameObject()方法
 
 # 管理器类
 
@@ -78,3 +78,11 @@ Tools -> Protocol -> 清空文件夹 清除所有的生成文件
 
 数据库中需要使用到的表：
 存储玩家信息的表：PlayerTable
+
+# 需要同步的文件
+
+Clint的DataClassGenerate的内容替换Server中的Data的内容
+Clint的/Resources/Network/替换Server中的/Network/
+Clint的/Resources/Data/替换Server中的/Data/
+Clint的/Script/ProtocolGenerate/的内容替换/Protocol/的内容
+Clint的/Script/Generate/的内容替换/Generate/的内容

@@ -18,7 +18,7 @@ public class MySqlTest : MonoBehaviour
 	{
 		PlayerLoginMsg_s logininfo = new PlayerLoginMsg_s();
 		logininfo.playerID = "1111";
-		logininfo.nickName = "dick";
+		logininfo.passWord = "dick";
 
 		ProtocolAnalysisService.SendCommand(logininfo);
 

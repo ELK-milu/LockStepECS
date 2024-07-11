@@ -17,7 +17,7 @@ namespace CDatabase
         private DbConfig config = null;
 
         private ConnectionPool connectPool;
-        //private MySqlConnection connection = null;
+        private MySqlConnection connection = null;
 
         private MySqlDatabase(DbConfig config)
         {
@@ -40,7 +40,7 @@ namespace CDatabase
 
             connectPool.closeConnection(conn);
 
-            //connection = new MySqlConnection(connectionStr);
+            connection = new MySqlConnection(connectionStr);
         }
 
         public static MySqlDatabase GetInstance(DbConfig config)
@@ -78,37 +78,37 @@ namespace CDatabase
 
         public void Open()
         {
-            //ConnectionState state = connectPool.getConnection().State;
+            ConnectionState state = connectPool.getConnection().State;
 
-            //if (!state.HasFlag(ConnectionState.Open))
-            //{
-            //    try
-            //    {
-            //        connectPool.getConnection().Open();
-            //        connectPool.getConnection().ChangeDatabase(config.Database);
-            //    }
-            //    catch (MySqlException e)
-            //    {
-            //        throw new DatabaseException(DbConfig.DbType.MYSQL, e.Number);
-            //    }
-            //}
+            if (!state.HasFlag(ConnectionState.Open))
+            {
+                try
+                {
+                    connectPool.getConnection().Open();
+                    connectPool.getConnection().ChangeDatabase(config.Database);
+                }
+                catch (MySqlException e)
+                {
+                    throw new DatabaseException(DbConfig.DbType.MYSQL, e.Number);
+                }
+            }
         }
 
         public void Close()
         {
-            //ConnectionState state = connection.State;
+            ConnectionState state = connection.State;
 
-            //if (!state.HasFlag(ConnectionState.Closed))
-            //{
-            //    try
-            //    {
-            //        connection.Close();
-            //    }
-            //    catch (MySqlException e)
-            //    {
-            //        throw new DatabaseException(DbConfig.DbType.MYSQL, e.Number);
-            //    }
-            //}
+            if (!state.HasFlag(ConnectionState.Closed))
+            {
+                try
+                {
+                    connection.Close();
+                }
+                catch (MySqlException e)
+                {
+                    throw new DatabaseException(DbConfig.DbType.MYSQL, e.Number);
+                }
+            }
         }
 
         public int ExecSQL(string sql, string[] bindArgs)

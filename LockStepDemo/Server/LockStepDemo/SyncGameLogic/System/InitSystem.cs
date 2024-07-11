@@ -45,7 +45,7 @@ public class InitSystem : SystemBase
 
         //将角色ID传入游戏
         playerComp.characterID = connectComp.m_session.player.characterID;
-        playerComp.nickName = connectComp.m_session.player.nickName;
+        playerComp.passWord = connectComp.m_session.player.passWord;
 
         Debug.Log("characterID ->" + playerComp.characterID + "<-");
 

@@ -6,7 +6,7 @@ using System;
 
 public class PlayerComponent : MomentComponentBase
 {
-    public string nickName;
+    public string passWord;
     public string characterID;
 
     public int score = 0;
@@ -29,7 +29,7 @@ public class PlayerComponent : MomentComponentBase
         pc.faceDir = faceDir.DeepCopy();
         pc.elementData.Clear();
         pc.characterID = characterID;
-        pc.nickName = nickName;
+        pc.passWord = passWord;
         pc.score = score;
 
         pc.isCloak = isCloak;

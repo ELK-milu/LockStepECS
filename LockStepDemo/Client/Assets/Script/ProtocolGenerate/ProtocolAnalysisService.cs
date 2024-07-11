@@ -391,7 +391,7 @@ public class ProtocolAnalysisService
 		PlayerLoginMsg_s e = (PlayerLoginMsg_s)msg;
 		Dictionary<string, object> data = new Dictionary<string, object>();
 		data.Add("playerid", e.playerID);
-		data.Add("nickname", e.nickName);
+		data.Add("password", e.passWord);
 		NetworkManager.SendMessage("playerloginmsg",data);
 	}
 	static void SendPlayerMatchMsg_s(IProtocolMessageInterface msg)

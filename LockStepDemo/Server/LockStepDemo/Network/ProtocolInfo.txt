@@ -51,12 +51,18 @@ message m_commandmsg_c
 message m_debugmsg_s
 {
 	required int32 frame = 1;
-	repeated entityinfo infos = 2;
+	required int32 seed = 2;
+	repeated entityinfo infos = 3;
+	repeated componentinfo singlecompinfo = 4;
+	required string msg = 5;
 }
 message m_debugmsg_c
 {
 	required int32 frame = 1;
-	repeated entityinfo infos = 2;
+	required int32 seed = 2;
+	repeated entityinfo infos = 3;
+	repeated componentinfo singlecompinfo = 4;
+	required string msg = 5;
 }
 
 message m_destroyentitymsg_s
@@ -78,6 +84,7 @@ message m_pursuemsg_s
 	required int32 advancecount = 4;
 	required int32 servertime = 5;
 	required double updatespeed = 6;
+	repeated string m_commandlist = 7;
 }
 message m_pursuemsg_c
 {
@@ -87,6 +94,7 @@ message m_pursuemsg_c
 	required int32 advancecount = 4;
 	required int32 servertime = 5;
 	required double updatespeed = 6;
+	repeated string m_commandlist = 7;
 }
 
 message m_querycommand_s
@@ -98,6 +106,19 @@ message m_querycommand_c
 {
 	required int32 frame = 1;
 	required int32 id = 2;
+}
+
+message m_samecommand_s
+{
+	required int32 time = 1;
+	required int32 frame = 2;
+	required int32 id = 3;
+}
+message m_samecommand_c
+{
+	required int32 time = 1;
+	required int32 frame = 2;
+	required int32 id = 3;
 }
 
 message m_startsyncmsg_s
@@ -132,6 +153,17 @@ message m_syncentitymsg_c
 	repeated int32 destroylist = 3;
 }
 
+message m_verificationmsg_s
+{
+	required int32 frame = 1;
+	required int32 hash = 2;
+}
+message m_verificationmsg_c
+{
+	required int32 frame = 1;
+	required int32 hash = 2;
+}
+
 message m_commandcomponent_s
 {
 	required syncvector3 movedir = 1;
@@ -142,6 +174,7 @@ message m_commandcomponent_s
 	required int32 id = 6;
 	required int32 frame = 7;
 	required int32 time = 8;
+	required bool isenable = 9;
 }
 message m_commandcomponent_c
 {
@@ -153,6 +186,7 @@ message m_commandcomponent_c
 	required int32 id = 6;
 	required int32 frame = 7;
 	required int32 time = 8;
+	required bool isenable = 9;
 }
 
 message m_playerbuycharacter_c
@@ -177,7 +211,7 @@ message m_playerloginmsg_c
 message m_playerloginmsg_s
 {
 	required string playerid = 1;
-	required string nickname = 2;
+	required string password = 2;
 }
 
 message m_playermatchmsg_c
@@ -233,6 +267,17 @@ message syncvector3
 	required int32 x = 1;
 	required int32 y = 2;
 	required int32 z = 3;
+}
+message vector2d
+{
+	required int32 x = 1;
+	required int32 y = 2;
+}
+message vector3d
+{
+	required int64 x = 1;
+	required int64 y = 2;
+	required int64 z = 3;
 }
 message entityinfo
 {

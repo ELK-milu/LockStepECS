@@ -7,7 +7,7 @@ public class Player
 {
     public SyncSession session;
     public string playerID;
-    public string nickName = "";
+    public string passWord = "";
     public string characterID = "1";
     public List<string> OwnCharacter = new List<string>();
 

@@ -447,7 +447,7 @@ public class SyncDebugSystem : SystemBase
 //#if UNITY_EDITOR
         foreach (var item in debugContent)
         {
-            //PersistentFileManager.SaveData(UserData.NickName+"_" + item.Key, item.Value.ToString());
+            //PersistentFileManager.SaveData(UserData.PassWord+"_" + item.Key, item.Value.ToString());
         }
 //#endif
     }

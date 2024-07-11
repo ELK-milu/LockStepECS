@@ -530,7 +530,7 @@ public static class ProtocolAnalysisService
 	{
 		PlayerLoginMsg_s msg = new PlayerLoginMsg_s();
 		msg.playerID = e.m_data["playerid"].ToString();
-		msg.nickName = e.m_data["nickname"].ToString();
+		msg.passWord = e.m_data["password"].ToString();
 		
 		EventService.DispatchTypeEvent(session,msg);
 	}

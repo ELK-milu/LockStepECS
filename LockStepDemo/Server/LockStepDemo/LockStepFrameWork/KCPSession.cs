@@ -17,17 +17,17 @@ public class KCPSession : AppSession<KCPSession, ProtocolRequestBase>
         base.OnSessionStarted();
         Debug.Log("OnSessionStarted ");
 
-       // UInt32 conv = 0;
+        //UInt32 conv = 0;
         //KCP.ikcp_decode32u(buf, 0, ref conv);
 
     }
 
 
 
-    
 
 
-    
+
+
 
 
     protected override void HandleUnknownRequest(ProtocolRequestBase requestInfo)

@@ -14,7 +14,7 @@ public abstract class ProtocolMessage : CsharpProtocolInterface
 public class PlayerLoginMsg_s : ProtocolMessage
 {
     public string playerID;
-    public string nickName;
+    public string passWord;
 
 }
 

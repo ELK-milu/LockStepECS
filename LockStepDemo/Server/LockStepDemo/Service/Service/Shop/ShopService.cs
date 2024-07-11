@@ -89,7 +89,7 @@ public class ShopService : ServiceBase
             Debug.LogError("玩家未登录");
         }
 
-        session.player.nickName = msg.newName;
+        session.player.passWord = msg.newName;
 
         PlayerRename_c res = new PlayerRename_c();
         res.code = ServiceErrorCode.c_Success;

@@ -92,3 +92,12 @@ A new session connected!
 A new session connected!
 2024-07-11 23:06:27,222 [36520] INFO  LockStepDemo - Session: fac17453-9ab5-42a1-b1ac-64d694022bd2/127.0.0.1:11857
 This session was closed for ClientClosing!
+2024-07-11 23:39:18,315 [38212] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-11 23:39:21,991 [39216] INFO  LockStepDemo - Session: 399ec1fe-a9cd-457e-a374-3ae7b582526c/127.0.0.1:13482
+A new session connected!
+2024-07-11 23:39:44,341 [38212] INFO  LockStepDemo - The server instance LockStepDemo has been stopped!
+2024-07-11 23:39:44,344 [37152] INFO  LockStepDemo - Session: 399ec1fe-a9cd-457e-a374-3ae7b582526c/127.0.0.1:13482
+This session was closed for ServerShutdown!
+2024-07-11 23:40:55,304 [37108] INFO  LockStepDemo - The server instance LockStepDemo has been started!
+2024-07-11 23:41:02,093 [38480] INFO  LockStepDemo - Session: 5c31f512-9152-4542-b943-5aaa4e40a190/127.0.0.1:13551
+A new session connected!
