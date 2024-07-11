@@ -47,7 +47,7 @@ public class GUIConsole
     /// <summary>
     /// 内存监视器
     /// </summary>
-    //static private MemoryDetector memoryDetector = null;
+    static private MemoryDetector memoryDetector = null;
     static private bool showGUI = false;
     static List<ConsoleMessage> entries = new List<ConsoleMessage>();
     static Vector2 scrollPos;
@@ -66,8 +66,8 @@ public class GUIConsole
     {
         fpsCounter = new FPSCounter();
         fpsCounter.Init();
-        //memoryDetector = new MemoryDetector();
-        //memoryDetector.Init();
+        memoryDetector = new MemoryDetector();
+        memoryDetector.Init();
 
         ApplicationManager.s_OnApplicationUpdate += Update;
         ApplicationManager.s_OnApplicationOnGUI += OnGUI;

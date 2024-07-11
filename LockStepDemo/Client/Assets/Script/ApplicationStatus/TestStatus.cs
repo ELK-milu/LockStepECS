@@ -18,18 +18,23 @@ public class TestStatus : IApplicationStatus {
 
         WorldManager.Init(1000);
         WorldManager.CreateWorld<DemoWorld>();
+        
+        WorldManager.WorldList[0].IsStart = true;
+        WorldManager.WorldList[0].IsClient = true;
+        WorldManager.WorldList[0].IsLocal = false;
+        WorldManager.WorldList[0].IsRecalculate = true;
 
 
     }
     public override void OnUpdate()
     {
-        //
-        // if(NetworkManager.IsConnect)
-        // {
-        //     role_login_s msg = new role_login_s();
-        //     ProtocolAnalysisService.SendCommand(msg);
-        // }
-        //
+        
+        if(NetworkManager.IsConnect)
+        {
+            //DebugMsg msg = new DebugMsg();
+            //ProtocolAnalysisService.SendCommand(msg);
+        }
+        
     }
 
     /*

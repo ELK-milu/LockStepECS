@@ -30,7 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -142,7 +142,6 @@
     <Compile Include="Assets\Script\SyncFrameWork\FastCollections\FastList.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\ECS\SingletonComponent.cs" />
     <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\Component\PlayerCommandBase.cs" />
-    <Compile Include="Assets\Script\ProtocolGenerate\ProtocolMessageClass.cs" />
     <Compile Include="Assets\Script\Core\Lua\LuaHelper\UI\UIManagerLuaHelper.cs" />
     <Compile Include="Assets\Script\SyncGameLogic\System\GameSystem.cs" />
     <Compile Include="Assets\Script\Core\Input\Events\IInputOperationEventBase.cs" />
@@ -356,6 +355,62 @@
     <Compile Include="Assets\Script\Core\Network\NetworkManager.cs" />
     <Compile Include="Assets\Script\Core\Network\Interface\INetworkInterface.cs" />
     <Compile Include="Assets\Script\Generate\ComponentEnum.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\SyncLogic\Component\ConnectionComponent.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Body.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\GearJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Collision.CollideCircle.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\PulleyJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Controllers\ConstantAccelController.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\NullContact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Vec3.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\Joint.cs" />
+    <Compile Include="Assets\Script\Service\Module\Player.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\PrismaticJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\PolyAndCircleContact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Controllers\TensorDampingController.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Collision.TimeOfImpact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Controllers\GravityController.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Shapes\CircleShape.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\DistanceJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Collision.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\Contact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Controllers\ConstantForceController.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Island.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Collision.CollidePoly.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Controllers\BuoyancyController.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Mat33.cs" />
+    <Compile Include="Assets\Script\Service\Message\ProtocolMessage.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\MouseJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Settings.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Fixture.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\EdgeAndCircleContact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\RevoluteJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Collision.CollideEdge.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Vec2.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\World.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\ContactManager.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Sweep.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Mat22.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\PolyContact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Joints\LineJoint.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\BroadPhase.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Collision.Distance.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\ContactSolver.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Shapes\Shape.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\PairManager.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Shapes\PolygonShape.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\Math.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Common\XForm.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Box2DXDebug.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\CircleContact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Contacts\PolyAndEdgeContact.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Collision\Shapes\EdgeShape.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\WorldCallbacks.cs" />
+    <Compile Include="Assets\Script\Service\Game\Box2D\Dynamics\Controllers\Controller.cs" />
+    <Compile Include="Assets\Script\SyncFrameWork\SyncSession.cs" />
+    <Compile Include="Assets\Script\Service\ProtocolRequestBase.cs" />
+    <Compile Include="Assets\Script\LuaGenerate\LuaBinder.cs" />
+    <Compile Include="Assets\Script\LuaGenerate\DelegateFactory.cs" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\commontypes.ko.txt" />
     <None Include="Library\PackageCache\com.unity.modules.subsystems@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -376,6 +431,8 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\guihelp.es.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\clientcommon.ko.txt" />
     <None Include="Library\PackageCache\com.unity.ext.nunit@1.0.6\package.json" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\Data\LuaDataHelper.txt" />
+    <None Include="Assets\Resources\LuaLib\LuaDataHelper.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\clientcommon.es.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\guihelp.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\workspaceserver.ko.txt" />
@@ -425,6 +482,7 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\binmergetool.es.txt" />
     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\ValidationExceptions.json" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\binmergetool.zh-Hans.txt" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\Status\LuaStatusManager.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\workspaceserver.en.txt" />
     <None Include="Assets\Resources\Data\SkillData.txt" />
     <None Include="Library\PackageCache\com.unity.modules.unityanalytics@1.0.0\package.json" />
@@ -438,6 +496,8 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\binmergetool.ja.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\xdiff.ko.txt" />
     <None Include="Assets\Resources\Data\CombineData.txt" />
+    <None Include="Assets\Resources\LuaLib\LuaStringHelper.txt" />
+    <None Include="Assets\Resources\LuaLib\LuaEventDispatcher.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\semantic.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\commontypes.zh-Hans.txt" />
     <None Include="Assets\EditorConfig\SDKEditorConfig.json" />
@@ -448,7 +508,9 @@
     <None Include="Library\PackageCache\com.unity.modules.physics2d@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Library\PackageCache\com.unity.modules.vr@1.0.0\package.json" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\LuaFrameWorkEventName.txt" />
     <None Include="Library\PackageCache\com.unity.visualscripting@1.9.1\ValidationExceptions.json" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\UI\LuaUIManager.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\guihelp.zh-Hans.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -491,16 +553,21 @@
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\xdiff.en.txt" />
+    <None Include="Assets\Resources\LuaLib\luaJson.txt" />
     <None Include="Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\semantic.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\differences.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\basecommands.zh-Hant.txt" />
     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_SDF_SSD.cginc" />
+    <None Include="Assets\Resources\LuaLib\Unity\LuaUnityDefine.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\differences.ko.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\ValidationConfig.json" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\guihelp.ja.txt" />
+    <None Include="Assets\Resources\LuaLib\LuaFormatTools.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\plastic-gui.zh-Hant.txt" />
     <None Include="Assets\EditorTemplateRes\text.txt" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\Update\LuaUpdate.txt" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\Status\LuaStatusMetaTable.txt" />
     <None Include="Library\PackageCache\com.unity.modules.xr@1.0.0\package.json" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\clientcommon.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Editor Resources\Shaders\TMP_Properties.cginc" />
@@ -521,6 +588,7 @@
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\cm-help.ko.txt" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\basecommands.zh-Hans.txt" />
     <None Include="Library\PackageCache\com.unity.modules.terrain@1.0.0\package.json" />
+    <None Include="Assets\Resources\LuaLib\FrameWork\UI\LuaUIWindowMetatable.txt" />
     <None Include="Library\PackageCache\com.unity.modules.androidjni@1.0.0\package.json" />
     <None Include="Assets\Resources\Config\SDKConfig.json" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
@@ -542,7 +610,9 @@
     <None Include="Library\PackageCache\com.unity.modules.uielements@1.0.0\package.json" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
     <None Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Localization\xdiff.zh-Hans.txt" />
+    <None Include="Assets\Script\Service\Game\Box2D\Collision\TODO.txt" />
     <None Include="Library\PackageCache\com.unity.modules.ui@1.0.0\package.json" />
+    <None Include="Assets\Resources\LuaLib\LuaPrintTable.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Resources\Data\FlyData.txt" />
     <None Include="Library\PackageCache\com.unity.ide.vscode@1.2.5\package.json" />
@@ -812,6 +882,18 @@
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\log4net.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:\Unity\2021.3.34f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

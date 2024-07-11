@@ -10,7 +10,7 @@ public class SyncSystem<T> : ViewSystemBase where T : PlayerCommandBase, new()
 {
     public override void Init()
     {
-        //Debug.Log("SyncSystem init ");
+        Debug.Log("SyncSystem init ");
 
         GlobalEvent.AddTypeEvent<SyncEntityMsg>(ReceviceSyncEntity);
         GlobalEvent.AddTypeEvent<PursueMsg>(RecevicePursueMsg);
@@ -262,7 +262,7 @@ public class SyncSystem<T> : ViewSystemBase where T : PlayerCommandBase, new()
             //TODO 如果全部都与本地预测相同则不再重计算
             for (int i = 0; i < msg.msg.Count; i++)
             {
-                //Debug.Log("RecordCommand " + Serializer.Serialize(msg.msg[i]));
+                Debug.Log("RecordCommand " + Serializer.Serialize(msg.msg[i]));
                 RecordCommand(msg.msg[i]);
             }
 
@@ -271,7 +271,7 @@ public class SyncSystem<T> : ViewSystemBase where T : PlayerCommandBase, new()
         else
         {
             //存入未执行命令列表
-            //Debug.Log("存入未执行命令列表");
+            Debug.Log("存入未执行命令列表");
             //GameDataCacheComponent gdcc = m_world.GetSingletonComp<GameDataCacheComponent>();
             //gdcc.m_noExecuteCommandList.Add(msg);
         }

@@ -51,7 +51,7 @@ public class WorldManager
     static int s_intervalTime = 200;
     static float s_UpdateTimer = 0; //ms
     static float s_deltaTime = 0; //ms
-    //static int s_logicFrameCount = 1;
+    static int s_logicFrameCount = 1;
 
     public static void Init(int intervalTime)
     {
@@ -81,7 +81,7 @@ public class WorldManager
 
         s_worldList.Add(world);
 
-        //Debug.Log("CreateWorld");
+        Debug.Log("CreateWorld");
         GameDataMonitor.PushData("world", world);
       
         return world;

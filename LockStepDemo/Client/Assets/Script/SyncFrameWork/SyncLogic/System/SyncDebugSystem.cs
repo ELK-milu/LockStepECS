@@ -38,6 +38,7 @@ public class SyncDebugSystem : SystemBase
     static Dictionary<string, StringBuilder> debugContent = new Dictionary<string, StringBuilder>();
 
     static List<DebugRecord> msgCacheList = new List<DebugRecord>();
+    // 消息缓存
     public static StringBuilder msgCache = new StringBuilder();
 
     public static WorldBase s_world;
@@ -356,7 +357,7 @@ public class SyncDebugSystem : SystemBase
     {
         if (!isDebug)
             return;
-
+        Debug.Log(msg);
         if (!s_world.IsCertainty)
             return;
 

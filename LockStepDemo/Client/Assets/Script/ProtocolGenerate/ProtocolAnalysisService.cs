@@ -24,6 +24,13 @@ public class ProtocolAnalysisService
 		InputManager.AddListener<InputNetworkMessageEvent>("syncentitymsg",ReceviceSyncEntityMsg);
 		InputManager.AddListener<InputNetworkMessageEvent>("verificationmsg",ReceviceVerificationMsg);
 		InputManager.AddListener<InputNetworkMessageEvent>("commandcomponent",ReceviceCommandComponent);
+		InputManager.AddListener<InputNetworkMessageEvent>("playerbuycharacter",RecevicePlayerBuyCharacter_c);
+		InputManager.AddListener<InputNetworkMessageEvent>("playerloginmsg",RecevicePlayerLoginMsg_c);
+		InputManager.AddListener<InputNetworkMessageEvent>("playermatchmsg",RecevicePlayerMatchMsg_c);
+		InputManager.AddListener<InputNetworkMessageEvent>("playerrename",RecevicePlayerRename_c);
+		InputManager.AddListener<InputNetworkMessageEvent>("playerresurgence",RecevicePlayerResurgence_c);
+		InputManager.AddListener<InputNetworkMessageEvent>("playerselectcharacter",RecevicePlayerSelectCharacter_c);
+		InputManager.AddListener<InputNetworkMessageEvent>("playersettlement",RecevicePlayerSettlement_c);
 	}
 
 	public static void Dispose()
@@ -41,6 +48,13 @@ public class ProtocolAnalysisService
 		InputManager.RemoveListener<InputNetworkMessageEvent>("syncentitymsg",ReceviceSyncEntityMsg);
 		InputManager.RemoveListener<InputNetworkMessageEvent>("verificationmsg",ReceviceVerificationMsg);
 		InputManager.RemoveListener<InputNetworkMessageEvent>("commandcomponent",ReceviceCommandComponent);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playerbuycharacter",RecevicePlayerBuyCharacter_c);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playerloginmsg",RecevicePlayerLoginMsg_c);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playermatchmsg",RecevicePlayerMatchMsg_c);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playerrename",RecevicePlayerRename_c);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playerresurgence",RecevicePlayerResurgence_c);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playerselectcharacter",RecevicePlayerSelectCharacter_c);
+		InputManager.RemoveListener<InputNetworkMessageEvent>("playersettlement",RecevicePlayerSettlement_c);
 	}
 	public static void SendCommand (IProtocolMessageInterface cmd)
 	{
@@ -95,6 +109,30 @@ public class ProtocolAnalysisService
 		else if(cmd is CommandComponent )
 		{
 			SendCommandComponent(cmd);
+		}
+		else if(cmd is PlayerBuyCharacter_s )
+		{
+			SendPlayerBuyCharacter_s(cmd);
+		}
+		else if(cmd is PlayerLoginMsg_s )
+		{
+			SendPlayerLoginMsg_s(cmd);
+		}
+		else if(cmd is PlayerMatchMsg_s )
+		{
+			SendPlayerMatchMsg_s(cmd);
+		}
+		else if(cmd is PlayerRename_s )
+		{
+			SendPlayerRename_s(cmd);
+		}
+		else if(cmd is PlayerResurgence_s )
+		{
+			SendPlayerResurgence_s(cmd);
+		}
+		else if(cmd is PlayerSelectCharacter_s )
+		{
+			SendPlayerSelectCharacter_s(cmd);
 		}
 		else
 		{
@@ -341,6 +379,48 @@ public class ProtocolAnalysisService
 		data.Add("isenable", e.isEnable);
 		NetworkManager.SendMessage("commandcomponent",data);
 	}
+	static void SendPlayerBuyCharacter_s(IProtocolMessageInterface msg)
+	{
+		PlayerBuyCharacter_s e = (PlayerBuyCharacter_s)msg;
+		Dictionary<string, object> data = new Dictionary<string, object>();
+		data.Add("characterid", e.characterID);
+		NetworkManager.SendMessage("playerbuycharacter",data);
+	}
+	static void SendPlayerLoginMsg_s(IProtocolMessageInterface msg)
+	{
+		PlayerLoginMsg_s e = (PlayerLoginMsg_s)msg;
+		Dictionary<string, object> data = new Dictionary<string, object>();
+		data.Add("playerid", e.playerID);
+		data.Add("nickname", e.nickName);
+		NetworkManager.SendMessage("playerloginmsg",data);
+	}
+	static void SendPlayerMatchMsg_s(IProtocolMessageInterface msg)
+	{
+		PlayerMatchMsg_s e = (PlayerMatchMsg_s)msg;
+		Dictionary<string, object> data = new Dictionary<string, object>();
+		data.Add("iscancel", e.isCancel);
+		NetworkManager.SendMessage("playermatchmsg",data);
+	}
+	static void SendPlayerRename_s(IProtocolMessageInterface msg)
+	{
+		PlayerRename_s e = (PlayerRename_s)msg;
+		Dictionary<string, object> data = new Dictionary<string, object>();
+		data.Add("newname", e.newName);
+		NetworkManager.SendMessage("playerrename",data);
+	}
+	static void SendPlayerResurgence_s(IProtocolMessageInterface msg)
+	{
+		PlayerResurgence_s e = (PlayerResurgence_s)msg;
+		Dictionary<string, object> data = new Dictionary<string, object>();
+		NetworkManager.SendMessage("playerresurgence",data);
+	}
+	static void SendPlayerSelectCharacter_s(IProtocolMessageInterface msg)
+	{
+		PlayerSelectCharacter_s e = (PlayerSelectCharacter_s)msg;
+		Dictionary<string, object> data = new Dictionary<string, object>();
+		data.Add("characterid", e.characterID);
+		NetworkManager.SendMessage("playerselectcharacter",data);
+	}
 	#endregion
 
 	#region 事件接收
@@ -579,6 +659,63 @@ public class ProtocolAnalysisService
 		msg.frame = (int)e.Data["frame"];
 		msg.time = (int)e.Data["time"];
 		msg.isEnable = (bool)e.Data["isenable"];
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerBuyCharacter_c(InputNetworkMessageEvent e)
+	{
+		PlayerBuyCharacter_c msg = new PlayerBuyCharacter_c();
+		msg.code = (int)e.Data["code"];
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerLoginMsg_c(InputNetworkMessageEvent e)
+	{
+		PlayerLoginMsg_c msg = new PlayerLoginMsg_c();
+		msg.code = (int)e.Data["code"];
+		msg.characterID = e.Data["characterid"].ToString();
+		msg.ownCharacter = (List<String>)e.Data["owncharacter"];
+		msg.coin = (int)e.Data["coin"];
+		msg.diamond = (int)e.Data["diamond"];
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerMatchMsg_c(InputNetworkMessageEvent e)
+	{
+		PlayerMatchMsg_c msg = new PlayerMatchMsg_c();
+		msg.predictTime = (int)e.Data["predicttime"];
+		msg.isMatched = (bool)e.Data["ismatched"];
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerRename_c(InputNetworkMessageEvent e)
+	{
+		PlayerRename_c msg = new PlayerRename_c();
+		msg.code = (int)e.Data["code"];
+		msg.newName = e.Data["newname"].ToString();
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerResurgence_c(InputNetworkMessageEvent e)
+	{
+		PlayerResurgence_c msg = new PlayerResurgence_c();
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerSelectCharacter_c(InputNetworkMessageEvent e)
+	{
+		PlayerSelectCharacter_c msg = new PlayerSelectCharacter_c();
+		msg.code = (int)e.Data["code"];
+		
+		GlobalEvent.DispatchTypeEvent(msg);
+	}
+	static void RecevicePlayerSettlement_c(InputNetworkMessageEvent e)
+	{
+		PlayerSettlement_c msg = new PlayerSettlement_c();
+		msg.rank = (int)e.Data["rank"];
+		msg.score = (int)e.Data["score"];
+		msg.historicalHighest = (int)e.Data["historicalhighest"];
+		msg.diamond = (int)e.Data["diamond"];
 		
 		GlobalEvent.DispatchTypeEvent(msg);
 	}

@@ -30,7 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -123,6 +123,7 @@
     <Compile Include="Assets\Script\Core\Editor\Test\Application\ApplicationLunchTest.cs" />
     <Compile Include="Assets\Script\Core\Editor\Data\DataEditorWindow.cs" />
     <Compile Include="Assets\Script\Core\Editor\XUPorter\Plist\Plist.cs" />
+    <Compile Include="Assets\Script\UI\Editor\Lua\LuaExportList.cs" />
     <None Include="Assets\Script\Core\Editor\res\LuaLib\LuaStringHelper.txt" />
     <None Include="Assets\Script\Core\Editor\res\LuaLib\FrameWork\Status\LuaStatusManager.txt" />
     <None Include="Assets\Script\Core\Editor\res\LuaLib\LuaFormatTools.txt" />
@@ -456,6 +457,18 @@
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketBase">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\SuperSocket.SocketBase.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.SocketEngine">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\SuperSocket.SocketEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.Common">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\SuperSocket.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Assets\Script\SyncFrameWork\libs\log4net.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>F:\U3Dexample\test\3DARPGdemo\LockStepECS\UnityLockStepDemo\LockStepDemo\Client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

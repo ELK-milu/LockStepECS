@@ -29,18 +29,19 @@ public enum ComponentEnum
 	PlayerCommandRecordComponent = 22,
 	RealPlayerComponent = 23,
 	SelfComponent = 24,
-	WaitSyncComponent = 25,
-	SyncComponent = 26,
-	TheirComponent = 27,
-	AssetComponent = 28,
-	BlockComponent = 29,
-	CampComponent = 30,
-	CollisionComponent = 31,
-	FlyObjectComponent = 32,
-	InputComponent = 33,
-	ItemComponent = 34,
-	ItemCreatePointComponent = 35,
-	TransfromComponent = 36
+	ConnectionComponent = 25,
+	WaitSyncComponent = 26,
+	SyncComponent = 27,
+	TheirComponent = 28,
+	AssetComponent = 29,
+	BlockComponent = 30,
+	CampComponent = 31,
+	CollisionComponent = 32,
+	FlyObjectComponent = 33,
+	InputComponent = 34,
+	ItemComponent = 35,
+	ItemCreatePointComponent = 36,
+	TransfromComponent = 37
  	 }
 public class ComponentHelper
  {
@@ -98,6 +99,8 @@ switch (type)
 	return  new RealPlayerComponent();
 	case  ComponentEnum.SelfComponent:
 	return  new SelfComponent();
+	case  ComponentEnum.ConnectionComponent:
+	return  new ConnectionComponent();
 	case  ComponentEnum.WaitSyncComponent:
 	return  new WaitSyncComponent();
 	case  ComponentEnum.SyncComponent:

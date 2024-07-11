@@ -130,12 +130,13 @@ public abstract class WorldBase
 	public List<EntityBase> m_entityList = new List<EntityBase>();                       //世界里所有的entity列表
 
 	public Dictionary<string, SingletonComponent> m_singleCompDict = new Dictionary<string, SingletonComponent>(); //所有的单例组件集合
-	//public SingletonComponent[] singletonComponents = null;
+	public SingletonComponent[] singletonComponents = null;
 
 	#endregion
 
 	#region 回滚相关
 
+	// 确定性标识符
 	bool m_isCertainty = false;
 	public bool IsCertainty
 	{
@@ -158,6 +159,7 @@ public abstract class WorldBase
 		}
 	}
 
+	// 重计算的标识符
 	bool _mIsRecalculate = false;
 	public bool IsRecalculate
 	{
@@ -222,8 +224,8 @@ public abstract class WorldBase
 		eventSystem = new ECSEvent(this);
 		componentType = GetComponentType();
 		heapComponentPool = new ComponentPool(componentType.Count(),this);
-		//singletonComponents = new SingletonComponent[componentType.Count()];
-		//Debug.Log(" componentType: " + componentType.GetType().FullName);
+		singletonComponents = new SingletonComponent[componentType.Count()];
+		Debug.Log(" componentType: " + componentType.GetType().FullName);
 		IsClient = isClient;
 		try
 		{
@@ -950,11 +952,12 @@ public abstract class WorldBase
 	{
 		if(IsRecalculate)
 		{
+			Debug.Log("确定性创建 " + entity.ID + " frame " + FrameCount + " m_isCertainty " + m_isCertainty);
 			RecalcCreateEntity(entity);
 		}
 		else
 		{
-			//Debug.Log("预测创建 " + entity.ID + " frame " + FrameCount + " m_isCertainty " + m_isCertainty);
+			Debug.Log("预测创建 " + entity.ID + " frame " + FrameCount + " m_isCertainty " + m_isCertainty);
 			CreateEntityAndDispatch(entity);
 			RecordEntityCreate(entity);
 		}
@@ -970,7 +973,7 @@ public abstract class WorldBase
 
 	void CreateEntityNoDispatch(EntityBase entity)
 	{
-		//Debug.Log("从实体列表中添加 " + entity.ID + " frame " + FrameCount);
+		Debug.Log("从实体列表中添加 " + entity.ID + " frame " + FrameCount);
 
 		if (m_entityDict.ContainsKey(entity.ID))
 		{

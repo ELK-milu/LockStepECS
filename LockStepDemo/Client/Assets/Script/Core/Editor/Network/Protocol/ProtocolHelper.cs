@@ -17,7 +17,7 @@ namespace FrameWork.Protocol
         static List<Type> StructList = new List<Type>();
 
         public const string PathName = "ProtocolGenerate";
-        const string AnalysisCodeName  = "ProtocolAnalysisService";
+        const string ProtocolAnalysisCodeName  = "ProtocolAnalysisService";
         const string ProtocolClassName = "ProtocolMessageClass";
 
         const string ModulePostfix = "Module";
@@ -676,7 +676,7 @@ namespace FrameWork.Protocol
 
             string csharpContent = GenerateCSharpContent();
 
-            string SavePath = Application.dataPath + "/Script/" + PathName + "/" + AnalysisCodeName + ".cs";
+            string SavePath = Application.dataPath + "/Script/" + PathName + "/" + ProtocolAnalysisCodeName + ".cs";
             ResourceIOTool.WriteStringByFile(SavePath, csharpContent);
 
             AssetDatabase.Refresh();
@@ -736,7 +736,7 @@ namespace FrameWork.Protocol
             csharpContent += "\n";
             csharpContent += "//指令解析类\n";
             csharpContent += "//该类自动生成，请勿修改\n";
-            csharpContent += "public class " + AnalysisCodeName + "\n";
+            csharpContent += "public class " + ProtocolAnalysisCodeName + "\n";
             csharpContent += "{\n";
 
             csharpContent += "\t#region 外部调用\n";
@@ -1304,7 +1304,7 @@ namespace FrameWork.Protocol
 
             string csharpContent = GenerateCSharpContent();
 
-            string SavePath = Application.dataPath + "/Script/" + PathName + "/" + AnalysisCodeName + ".cs";
+            string SavePath = Application.dataPath + "/Script/" + PathName + "/" + ProtocolAnalysisCodeName + ".cs";
             ResourceIOTool.WriteStringByFile(SavePath, csharpContent);
 
             AssetDatabase.Refresh();

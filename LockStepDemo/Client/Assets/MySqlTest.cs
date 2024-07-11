@@ -16,11 +16,11 @@ public class MySqlTest : MonoBehaviour
 {
 	public void TestSendMsg()
 	{
-		QueryCommand qc = new QueryCommand();
-		qc.frame = 1;
-		qc.id = 100;
+		PlayerLoginMsg_s logininfo = new PlayerLoginMsg_s();
+		logininfo.playerID = "1111";
+		logininfo.nickName = "dick";
 
-		ProtocolAnalysisService.SendCommand(qc);
+		ProtocolAnalysisService.SendCommand(logininfo);
 
 	}
 

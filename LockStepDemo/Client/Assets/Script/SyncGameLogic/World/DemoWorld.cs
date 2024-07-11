@@ -27,7 +27,7 @@ class DemoWorld : WorldBase
             //typeof(BuffSystem),
 
             //初始化
-            typeof(InitSystem),
+            //typeof(InitSystem),
             
             //表现层
             typeof(HealthBarSystem),
